@@ -17,9 +17,9 @@
 		<div id="header-content">
 			<h1 id="logo">Sara Bine</h1>
 			<div class="social">
-				<a href="http://linkedin.com/in/sarabine" title="LinkedIn" target="_blank"><img src="assets/img/linkedin.png" /></a> 
-				<a href="https://plus.google.com/104022314736371615496/" title="Google+" target="_blank"><img src="assets/img/google-plus.png" /></a> 
-				<a href="http://facebook.com/sarabine" title="Facebook" target="_blank"><img src="assets/img/facebook.png" /></a>
+				<a href="http://linkedin.com/in/sarabine" title="LinkedIn" target="_blank"><img src="assets/img/linkedin.png" alt="Contact me on LinkedIn"></a> 
+				<a href="https://plus.google.com/104022314736371615496/" title="Google+" target="_blank"><img src="assets/img/google-plus.png" alt="Contact me on Google+"></a> 
+				<a href="http://facebook.com/sarabine" title="Facebook" target="_blank"><img src="assets/img/facebook.png" alt="Contact me on Facebook"></a>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -49,9 +49,9 @@
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="consciouscreations" title="Conscious Creations Jewelry" target="_blank"><img src="portfolio/cc.png" alt="Conscious Creations Jewelry" /></a>
+						<a class="thumbnail" href="portfolio/consciouscreations" title="Conscious Creations Jewelry" target="_blank"><img src="portfolio/cc.png" alt="Conscious Creations Jewelry" /></a>
 						<div class="description">
-							<a href="consciouscreations" title="Conscious Creations Jewelry" target="_blank"><h3>Conscious Creations Jewelry</h3></a>
+							<a href="portfolio/consciouscreations" title="Conscious Creations Jewelry" target="_blank"><h3>Conscious Creations Jewelry</h3></a>
 							<p>I customized a website template for a freelance client.</p>
 						</div>
 					</article>
@@ -237,16 +237,13 @@
 		item.href = 'mailto:' + email;
 	  }
 	</script>
-	<script async type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-16515493-1']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-16515493-1', 'sarabine.com');
+		ga('send', 'pageview');
+	</script>	
 </body>
 </html>
