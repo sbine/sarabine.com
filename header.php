@@ -4,7 +4,6 @@
 <title>Sara Bine</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
-<link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700,400italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic' rel='stylesheet' type='text/css'>
 <link href="assets/css/style.css" rel="stylesheet" type="text/css">
