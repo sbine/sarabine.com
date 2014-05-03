@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic" rel="stylesheet" type="text/css">
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -21,7 +21,6 @@
 				<a href="https://plus.google.com/104022314736371615496/" title="Google+" target="_blank"><img src="assets/img/google-plus.png" alt="Contact me on Google+"></a> 
 				<a href="http://facebook.com/sarabine" title="Facebook" target="_blank"><img src="assets/img/facebook.png" alt="Contact me on Facebook"></a>
 			</div>
-			<div class="clear"></div>
 		</div>
 	</div>
 	<div id="container">
@@ -166,7 +165,7 @@
 			<div class="page" id="about">
 				<h2>About Me</h2>
 				<section>
-					<div class="thumbnail"><img id="me" src="assets/img/me.jpg" alt="me" /></div>
+					<div class="thumbnail"><img id="me" src="assets/img/me.jpg" alt="Me celebrating the conclusion of the GRE!" /></div>
 					<div class="description">
 						<p>I'm a graduate from the University of Denver with a Bachelor's degree in Computer Science and a focus in Digital Media. I have a strong background in web development and game programming, and particularly enjoy learning and leveraging the latest web technologies.</p>
 						<p>I discovered my love for computers through Internet Relay Chat, which led me to my <a href="http://www.ikick.eu" title="iKick.eu" target="_blank">first coding project</a> spanning 4 years and containing over 10,000 lines of code.</p>
