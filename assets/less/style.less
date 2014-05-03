@@ -1,0 +1,213 @@
+@contentWidth: 800px;
+@thumbnailWidth: 150px;
+
+@contentOffset: 30px;
+
+@purple: #AA22CC;
+@grayDark: #444;
+@grayLight: #DDD;
+
+@linkColor: #DD0044;
+@linkBackgroundColor: #CC0000;
+@linkPadding: 3px 6px 4px;
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Georgia, sans-serif;
+	line-height: 1.5;
+	background-color: #FAFAFA;
+	font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+ul {
+	padding: 0 0 0 @contentOffset;
+}
+
+a {
+	text-decoration: none;
+	color: @linkColor;
+	&:hover {
+		color: darken(@linkColor, 20%);
+	}
+}
+
+#header {
+	height: 255px;
+	max-height: 300px;
+	top: 0;
+	width: 100%;
+	background-color: purple;
+	z-index: 10;
+	background-image: url(../img/denver.jpg);
+	background-size: 100%;
+	border-bottom: 1px solid black;
+	#header-content {
+		margin: 0 auto;
+		width: @contentWidth;
+	}
+}
+
+#container {
+	position: relative;
+	clear: both;
+	overflow: hidden;
+	padding: 20px;
+}
+
+#logo {
+	padding: 5px 0 0 0;
+	float: left;
+	font-family: 'Lobster', serif;
+	font-size: 2.2em;
+	color: #c03;
+}
+
+.social {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	img {
+		opacity: 0.8;
+		&:hover {
+			opacity: 1;
+		}
+	}
+}
+
+#content {
+	margin: 0 auto;
+	width: @contentWidth;
+	font-size: 1em;
+}
+
+#synopsis {
+	padding: 10px 0 40px @contentOffset;
+	font-size: 1.3em;
+	font-family: 'Playfair Display', serif;
+}
+
+.page {
+	border-top: 1px solid @grayLight;
+	padding: 35px 0;
+	position: relative;
+	overflow: visible;
+	clear: both;
+	& > section {
+		position: relative;
+		& > .thumbnail {
+			margin-left: @contentOffset;
+		}
+	}
+	h2 {
+		font-family: 'Lobster', serif;
+		font-size: 2em;
+		margin-bottom: 30px;
+	}
+	.thumbnail {
+		img {
+			border: 1px solid @grayLight;
+			width: @thumbnailWidth;
+		}
+	}
+	.description {
+		h3 {
+			color: @grayDark;
+		}
+		p {
+			margin-bottom: 5px;
+		}
+		position: absolute;
+		top: 0;
+		left: @thumbnailWidth + (@contentOffset * 2);
+	}
+	.class-name {
+		font-weight: bold;
+	}
+}
+
+.project {
+	margin: 20px (@contentOffset - 10px) 0 @contentOffset;
+	float: left;
+	width: 150px;
+	height: 200px;
+	position: relative;
+	text-align: center;
+	.description {
+		display: none;
+	}
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.inline-list li {
+	display: inline;
+	padding: 5px 10px 5px 0;
+}
+
+.cursive {
+	font-style: italic;
+}
+
+@media screen and (max-width: 1024px) {
+	#header {
+		background-size: auto;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	#header {
+		#header-content {
+			width: 100%;
+			padding: 0 10px;
+		}
+		.social {
+			position: absolute;
+			top: 13px;
+			right: 10px;
+			margin: 0;
+		}
+	}
+	#synopsis {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#content {
+		width: 100%;
+	}
+	.page {
+		& > section {
+			& > .thumbnail {
+				margin-left: 10px;
+			}
+		}
+		.thumbnail img {
+			height: auto;
+		}
+		.description {
+			position: initial;
+			margin-left: 10px;
+		}
+	}
+	.inline-list {
+		padding-left: 10px;
+	}
+}
+
+@media screen and (max-device-width: 480px) {
+	.project {
+		height: auto;
+		float: none;
+	}
+}
