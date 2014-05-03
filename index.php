@@ -229,13 +229,14 @@
 		<p>&copy; <?php echo date('Y'); ?> Sara Bine</p>
 	</footer>
 	<script>
-	  var email = 'sara' + '' + '@' + 'sarabine' + '.' + 'com';
-	  var emailElements = document.getElementsByClassName('email');
+		var email = 'sara' + '' + '@' + 'sarabine' + '.' + 'com';
+		var emailElements = document.getElementsByClassName('email');
+		var item;
 		for (var i = 0; i < emailElements.length; i++) {
-		var item = emailElements[i];  
-		item.innerHTML = email;
-		item.href = 'mailto:' + email;
-	  }
+			item = emailElements[i];
+			item.innerHTML = email;
+			item.href = 'mailto:' + email;
+		}
 	</script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -244,6 +245,6 @@
 		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 		ga('create', 'UA-16515493-1', 'sarabine.com');
 		ga('send', 'pageview');
-	</script>	
+	</script>
 </body>
 </html>
