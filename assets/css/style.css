@@ -156,12 +156,14 @@ footer {
   .page > section > .thumbnail {
     margin-left: 10px;
   }
+  .page .project {
+    margin-left: 10px;
+  }
   .page .thumbnail img {
     height: auto;
   }
   .page .description {
     position: initial;
-    margin-left: 10px;
   }
   .inline-list {
     padding-left: 10px;
