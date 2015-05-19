@@ -169,7 +169,7 @@
 					<div class="description">
 						<p>I'm a graduate from the University of Denver with a Bachelor's degree in Computer Science and a focus in Digital Media. I have a strong background in web development and game programming, and particularly enjoy learning and leveraging the latest web technologies.</p>
 						<p>I discovered my love for computers through Internet Relay Chat, which led me to my <a href="http://www.ikick.eu" title="iKick.eu" target="_blank">first coding project</a> spanning 4 years and containing over 10,000 lines of code.</p>
-						<p>Currently, I'm employed at an innovative e-commerce company and maintain several side jobs including website consulting and development.</p>
+						<p>Currently, I'm employed at an innovative marketing &amp; technology company developing software for the higher education industry.</p>
 					</div>
 				</section>
 			</div>
