@@ -119,9 +119,9 @@
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/BigMack" title="Big Mack Attack" target="_blank"><img src="portfolio/BigMack.png" alt="Big Mack Attack" /></a>
+						<a class="thumbnail" href="portfolio/BigMack.html" title="Big Mack Attack" target="_blank"><img src="portfolio/BigMack.png" alt="Big Mack Attack" /></a>
 						<div class="description">
-							<a href="portfolio/BigMack" title="Big Mack Attack" target="_blank"><h3>Big Mack Attack</h3></a>
+							<a href="portfolio/BigMack.html" title="Big Mack Attack" target="_blank"><h3>Big Mack Attack</h3></a>
 							<p>An exercise in raising awareness of a social issue through a game. One player navigates through each floor of a fast-food company's headquarters in order to save the city from obesity.</p>
 						</div>
 					</article>
