@@ -35,6 +35,20 @@
 				<h2>My Work</h2>
 				<section>
 					<article class="project">
+						<a class="thumbnail" href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank"><img src="portfolio/bdgt.png" alt="Bdgt" /></a>
+						<div class="description">
+							<a href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank"><h3>Bdgt Finance</h3></a>
+							<p>I maintain a <a href="http://laravel.com/" title="Laravel" target="_blank">Laravel</a>-based financial planning app as a side project.</p>
+						</div>
+					</article>
+					<article class="project">
+						<a class="thumbnail" href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank"><img src="portfolio/sudoku.png" alt="ReactJS Sudoku" /></a>
+						<div class="description">
+							<a href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank"><h3>ReactJS Sudoku</h3></a>
+							<p>I created a Sudoku game in order to learn <a href="https://facebook.github.io/react/" title="React">ReactJS</a>.</p>
+						</div>
+					</article>
+					<article class="project">
 						<a class="thumbnail" href="http://transactionalfunding.com" title="Transactional Funding" target="_blank"><img src="portfolio/tf.png" alt="Transactional Funding" /></a>
 						<div class="description">
 							<a href="http://transactionalfunding.com" title="Transactional Funding" target="_blank"><h3>Transactional Funding</h3></a>
