@@ -45,7 +45,7 @@
 						<a class="thumbnail" href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank"><img src="portfolio/sudoku.png" alt="ReactJS Sudoku" /></a>
 						<div class="description">
 							<a href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank"><h3>ReactJS Sudoku</h3></a>
-							<p>I created a Sudoku game in order to learn <a href="https://facebook.github.io/react/" title="React">ReactJS</a>.</p>
+							<p>I created a self-validating Sudoku game in order to learn <a href="https://facebook.github.io/react/" title="React">ReactJS</a>.</p>
 						</div>
 					</article>
 					<article class="project">
