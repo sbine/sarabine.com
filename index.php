@@ -21,6 +21,7 @@
 				<a href="https://plus.google.com/+SaraBine/about" title="Google+" target="_blank"><img src="assets/img/google-plus.png" alt="Contact me on Google+"></a>
 				<a href="http://facebook.com/sarabine" title="Facebook" target="_blank"><img src="assets/img/facebook.png" alt="Contact me on Facebook"></a>
 				<a href="https://twitter.com/sara_bine" title="Twitter" target="_blank"><img src="assets/img/twitter.png" alt="Contact me on Twitter"></a>
+				<a href="https://github.com/sbine" title="GitHub" target="_blank"><img src="assets/img/github.png" alt="Contact me on GitHub"></a>
 			</div>
 		</div>
 	</div>
@@ -37,6 +38,9 @@
 					<article class="project">
 						<a class="thumbnail" href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank"><img src="portfolio/bdgt.png" alt="Bdgt" /></a>
 						<div class="description">
+							<a href="https://github.com/sbine/bdgt" title="View Bdgt on GitHub" target="_blank" class="github-link">
+								<img src="assets/img/github-mark.png" alt="View Source on GitHub">
+							</a>
 							<a href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank"><h3>Bdgt Finance</h3></a>
 							<p>I maintain a <a href="http://laravel.com/" title="Laravel" target="_blank">Laravel</a>-based financial planning app as a side project.</p>
 						</div>
@@ -44,6 +48,9 @@
 					<article class="project">
 						<a class="thumbnail" href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank"><img src="portfolio/sudoku.png" alt="ReactJS Sudoku" /></a>
 						<div class="description">
+							<a href="https://github.com/sbine/sudoku-react" title="View ReactJS Sudoku on GitHub" target="_blank" class="github-link">
+								<img src="assets/img/github-mark.png" alt="View Source on GitHub">
+							</a>
 							<a href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank"><h3>ReactJS Sudoku</h3></a>
 							<p>I created a self-validating Sudoku game in order to learn <a href="https://facebook.github.io/react/" title="React">ReactJS</a>.</p>
 						</div>
@@ -235,6 +242,7 @@
 					<li><a href="https://plus.google.com/+SaraBine/about" title="Google+" target="_blank">Google+</a></li>
 					<li><a href="http://www.facebook.com/sarabine" title="Facebook" target="_blank">Facebook</a></li>
 					<li><a href="https://twitter.com/sara_bine" title="Twitter" target="_blank">Twitter</a></li>
+					<li><a href="https://github.com/sbine" title="GitHub" target="_blank">GitHub</a></li>
 					<li><a class="email" title="Email me"></a></li>
 				</ul>
 			</div>

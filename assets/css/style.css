@@ -103,6 +103,7 @@ a:hover {
 .page .description {
   position: absolute;
   top: 0;
+  width: 75%;
   left: 195px;
 }
 .page .description h3 {
@@ -110,6 +111,12 @@ a:hover {
 }
 .page .description p {
   margin-bottom: 5px;
+}
+.page .description .github-link {
+  float: right;
+}
+.page .description .github-link:hover {
+  opacity: 0.5;
 }
 .page .class-name {
   font-weight: bold;
@@ -164,6 +171,7 @@ footer {
   }
   .page .description {
     position: initial;
+    width: 100%;
   }
   .inline-list {
     padding-left: 10px;

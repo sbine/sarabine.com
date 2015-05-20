@@ -125,8 +125,15 @@ a {
 		p {
 			margin-bottom: 5px;
 		}
+		.github-link {
+			float: right;
+			&:hover {
+				opacity: 0.5;
+			}
+		}
 		position: absolute;
 		top: 0;
+		width: 75%;
 		left: @thumbnailWidth + (@contentOffset * 1.5);
 	}
 	.class-name {
@@ -194,6 +201,7 @@ footer {
 		}
 		.description {
 			position: initial;
+			width: 100%;
 		}
 	}
 	.inline-list {
