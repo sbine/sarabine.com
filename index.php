@@ -48,7 +48,7 @@
 					<article class="project">
 						<a class="thumbnail" href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank"><img src="portfolio/sudoku.png" alt="ReactJS Sudoku" /></a>
 						<div class="description">
-							<a href="https://github.com/sbine/sudoku-react" title="View ReactJS Sudoku on GitHub" target="_blank" class="github-link">
+							<a href="https://github.com/sbine/react-sudoku" title="View ReactJS Sudoku on GitHub" target="_blank" class="github-link">
 								<img src="assets/img/github-mark.png" alt="View Source on GitHub">
 							</a>
 							<a href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank"><h3>ReactJS Sudoku</h3></a>
