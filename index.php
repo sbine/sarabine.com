@@ -20,7 +20,7 @@
 				<a href="http://linkedin.com/in/sarabine" title="LinkedIn" target="_blank"><img src="assets/img/linkedin.png" alt="Contact me on LinkedIn"></a>
 				<a href="https://plus.google.com/+SaraBine/about" title="Google+" target="_blank"><img src="assets/img/google-plus.png" alt="Contact me on Google+"></a>
 				<!--<a href="http://facebook.com/sarabine" title="Facebook" target="_blank"><img src="assets/img/facebook.png" alt="Contact me on Facebook"></a>-->
-				<a href="https://twitter.com/sara_bine" title="Twitter" target="_blank"><img src="assets/img/twitter.png" alt="Contact me on Twitter"></a>
+				<!--<a href="https://twitter.com/sara_bine" title="Twitter" target="_blank"><img src="assets/img/twitter.png" alt="Contact me on Twitter"></a>-->
 				<a href="https://github.com/sbine" title="GitHub" target="_blank"><img src="assets/img/github.png" alt="View my GitHub"></a>
 			</div>
 		</div>
@@ -243,39 +243,39 @@
 				<h2>Contact</h2>
 				<ul class="tiled-list">
 					<li>
-						<a href="http://www.linkedin.com/in/sarabine" title="LinkedIn" target="_blank">
+						<a href="http://www.linkedin.com/in/sarabine" title="Contact me on LinkedIn" target="_blank">
 							<img src="assets/img/linkedin.png" alt="Contact me on LinkedIn">
 							LinkedIn
 						</a>
 					</li>
 					<li>
-						<a href="https://plus.google.com/+SaraBine/about" title="Google+" target="_blank">
+						<a href="https://plus.google.com/+SaraBine/about" title="Contact me on Google+" target="_blank">
 							<img src="assets/img/google-plus.png" alt="Contact me on Google+">
 							Google+
 						</a>
 					</li>
-					<!--
 					<li>
-						<a href="http://www.facebook.com/sarabine" title="Facebook" target="_blank">
-							<img src="assets/img/facebook.png" alt="Contact me on Facebook">
-							Facebook
-						</a>
-					</li>-->
-					<li>
-						<a href="https://twitter.com/sara_bine" title="Twitter" target="_blank">
-							<img src="assets/img/twitter.png" alt="Contact me on Twitter">
-							Twitter
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/sbine" title="GitHub" target="_blank">
+						<a href="https://github.com/sbine" title="View my GitHub" target="_blank">
 							<img src="assets/img/github.png" alt="View my GitHub">
 							GitHub
 						</a>
 					</li>
 					<li>
+						<a href="https://twitter.com/sara_bine" title="Contact me on Twitter" target="_blank">
+							<img src="assets/img/twitter.png" alt="Contact me on Twitter">
+							Twitter
+						</a>
+					</li>
+					<li>
+						<a href="http://www.facebook.com/sarabine" title="Contact me on Facebook" target="_blank">
+							<img src="assets/img/facebook.png" alt="Contact me on Facebook">
+							Facebook
+						</a>
+					</li>
+					<li>
 						<a class="email" title="Email me">
 							<img src="assets/img/email.png" alt="Email me">
+							Email
 						</a>
 					</li>
 				</ul>
@@ -291,7 +291,9 @@
 		var item;
 		for (var i = 0; i < emailElements.length; i++) {
 			item = emailElements[i];
-			item.innerHTML = item.innerHTML + email;
+			if (item.innerHTML.length === 0) {
+				item.innerHTML = item.innerHTML + email;
+			}
 			item.href = 'mailto:' + email;
 		}
 	</script>
