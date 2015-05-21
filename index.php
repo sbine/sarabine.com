@@ -10,7 +10,7 @@
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic" rel="stylesheet" type="text/css">
-	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<div id="header">
@@ -22,6 +22,7 @@
 				<!--<a href="http://facebook.com/sarabine" title="Facebook" target="_blank"><img src="assets/img/facebook.png" alt="Contact me on Facebook"></a>-->
 				<!--<a href="https://twitter.com/sara_bine" title="Twitter" target="_blank"><img src="assets/img/twitter.png" alt="Contact me on Twitter"></a>-->
 				<a href="https://github.com/sbine" title="GitHub" target="_blank"><img src="assets/img/github.png" alt="View my GitHub"></a>
+				<!--<a class="email" title="Email"><img src="assets/img/email.png" alt="Email me"></a>-->
 			</div>
 		</div>
 	</div>
@@ -34,9 +35,11 @@
 
 			<div class="page" id="work">
 				<h2>My Work</h2>
-				<section>
+				<section id="portfolio">
 					<article class="project">
-						<a class="thumbnail" href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank"><img src="portfolio/bdgt.png" alt="Bdgt" /></a>
+						<a class="thumbnail" href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank">
+							<img src="portfolio/bdgt.png" alt="Bdgt" />
+						</a>
 						<div class="description">
 							<h3>
 								<a href="https://github.com/sbine/bdgt" title="View Bdgt on GitHub" target="_blank" class="github-link">
@@ -48,7 +51,9 @@
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank"><img src="portfolio/sudoku.png" alt="ReactJS Sudoku" /></a>
+						<a class="thumbnail" href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank">
+							<img src="portfolio/sudoku.png" alt="ReactJS Sudoku" />
+						</a>
 						<div class="description">
 							<h3>
 								<a href="https://github.com/sbine/react-sudoku" title="View ReactJS Sudoku on GitHub" target="_blank" class="github-link">
@@ -60,107 +65,167 @@
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="http://transactionalfunding.com" title="Transactional Funding" target="_blank"><img src="portfolio/tf.png" alt="Transactional Funding" /></a>
+						<a class="thumbnail" href="http://transactionalfunding.com" title="Transactional Funding" target="_blank">
+							<img src="portfolio/tf.png" alt="Transactional Funding" />
+						</a>
 						<div class="description">
-							<h3><a href="http://transactionalfunding.com" title="Transactional Funding" target="_blank">Transactional Funding</a></h3>
+							<h3>
+								<a href="http://transactionalfunding.com" title="Transactional Funding" target="_blank">Transactional Funding</a>
+							</h3>
 							<p>I integrated a client's <a href="http://wordpress.org/" title="WordPress" target="_blank">WordPress</a> site with the <a href="http://recurly.com/" title="Recurly" target="_blank">Recurly</a> API via a custom plugin.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="http://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank"><img src="portfolio/bopitsmash.png" alt="Bop It! Smash" /></a>
+						<a class="thumbnail" href="http://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank">
+							<img src="portfolio/bopitsmash.png" alt="Bop It! Smash" />
+						</a>
 						<div class="description">
-							<h3><a href="http://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank">Bop It! Smash</a></h3>
+							<h3>
+								<a href="http://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank">Bop It! Smash</a>
+							</h3>
 							<p>I managed the data interchange behind iOS app Bop It! Smash with JSON, including user segmentation and in-app promotions.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/consciouscreations" title="Conscious Creations Jewelry" target="_blank"><img src="portfolio/cc.png" alt="Conscious Creations Jewelry" /></a>
+						<a class="thumbnail" href="portfolio/consciouscreations" title="Conscious Creations Jewelry" target="_blank">
+							<img src="portfolio/cc.png" alt="Conscious Creations Jewelry" />
+						</a>
 						<div class="description">
-							<h3><a href="portfolio/consciouscreations" title="Conscious Creations Jewelry" target="_blank">Conscious Creations Jewelry</a></h3>
+							<h3>
+								<a href="portfolio/consciouscreations" title="Conscious Creations Jewelry" target="_blank">Conscious Creations Jewelry</a>
+							</h3>
 							<p>I customized a website template for a freelance client.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="http://thedylanjones.com" title="Dylan Jones" target="_blank"><img src="portfolio/thedylanjones.png" alt="Dylan Jones" /></a>
+						<a class="thumbnail" href="http://thedylanjones.com" title="Dylan Jones" target="_blank">
+							<img src="portfolio/thedylanjones.png" alt="Dylan Jones" />
+						</a>
 						<div class="description">
-							<h3><a href="http://thedylanjones.com" title="Dylan Jones" target="_blank">Dylan Jones</a></h3>
+							<h3>
+								<a href="http://thedylanjones.com" title="Dylan Jones" target="_blank">Dylan Jones</a>
+							</h3>
 							<p>I coded a personal portfolio website for a freelance client.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="http://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank"><img src="portfolio/ubz.png" alt="Ultimate Battle Zombies" /></a>
+						<a class="thumbnail" href="http://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank">
+							<img src="portfolio/ubz.png" alt="Ultimate Battle Zombies" />
+						</a>
 						<div class="description">
-							<h3><a href="http://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank">Ultimate Battle Zombies</a></h3>
+							<h3>
+								<a href="http://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank">Ultimate Battle Zombies</a>
+							</h3>
 							<p>I was responsible for all data interchange behind iOS game Ultimate Battle Zombies and developed several mobile websites used in-app.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="http://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank"><img src="portfolio/mpz.png" alt="My Pet Zombie" /></a>
+						<a class="thumbnail" href="http://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank">
+							<img src="portfolio/mpz.png" alt="My Pet Zombie" />
+						</a>
 						<div class="description">
-							<h3><a href="http://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank">My Pet Zombie</a></h3>
+							<h3>
+								<a href="http://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank">My Pet Zombie</a>
+							</h3>
 							<p>I worked on the backend for the My Pet Zombie in-app purchase store and was responsible for all data interchange with JSON.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="http://profilepicmaker.com" title="Profile Pic Maker" target="_blank"><img src="portfolio/ppm.png" alt="Profile Pic Maker" /></a>
+						<a class="thumbnail" href="http://profilepicmaker.com" title="Profile Pic Maker" target="_blank">
+							<img src="portfolio/ppm.png" alt="Profile Pic Maker" />
+						</a>
 						<div class="description">
-							<h3><a href="http://profilepicmaker.com" title="Profile Pic Maker" target="_blank">Profile Pic Maker</a></h3>
+							<h3>
+								<a href="http://profilepicmaker.com" title="Profile Pic Maker" target="_blank">Profile Pic Maker</a>
+							</h3>
 							<p>A profile picture uploader, editor and cropper capitalizing on Facebook's new layout. Written in PHP, JavaScript/jQuery, Ajax, and the PHP library <a href="http://www.imagemagick.org/script/index.php" target="_blank">ImageMagick</a>.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/BombBreak/BombBreak.html" title="Bomb Break" target="_blank"><img src="portfolio/BombBreak/BombBreak.png" alt="Bomb Break" /></a>
+						<a class="thumbnail" href="portfolio/BombBreak/BombBreak.html" title="Bomb Break" target="_blank">
+							<img src="portfolio/BombBreak/BombBreak.png" alt="Bomb Break" />
+						</a>
 						<div class="description">
-							<h3><a href="portfolio/BombBreak/BombBreak.html" title="Bomb Break" target="_blank">Bomb Break</a></h3>
+							<h3>
+								<a href="portfolio/BombBreak/BombBreak.html" title="Bomb Break" target="_blank">Bomb Break</a>
+							</h3>
 							<p>A experiment using the <a href="http://en.wikipedia.org/wiki/Stroop_effect" target="_blank">Stroop Effect</a> as a game mechanic, featuring an in-depth story line alongside fast-paced gameplay. Written in <a href="http://www.actionscript.org/" target="_blank">ActionScript 3.0</a>.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/twitter/" title="Twitter Aggregator" target="_blank"><img src="portfolio/twitter.png" alt="Twitter Aggregator" /></a>
+						<a class="thumbnail" href="portfolio/twitter/" title="Twitter Aggregator" target="_blank">
+							<img src="portfolio/twitter.png" alt="Twitter Aggregator" />
+						</a>
 						<div class="description">
-							<h3><a href="portfolio/twitter/" title="Twitter Aggregator" target="_blank">Twitter Aggregator</a></h3>
+							<h3>
+								<a href="portfolio/twitter/" title="Twitter Aggregator" target="_blank">Twitter Aggregator</a>
+							</h3>
 							<p>A Twitter feed aggregator that measures and visualizes word frequency in real-time tweets. Written in PHP and <a href="http://www.processing.org/" target="_blank">Processing</a>.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="http://gresss.com" title="GRESSS" target="_blank"><img src="portfolio/gresss.png" alt="GRESSS" /></a>
+						<a class="thumbnail" href="http://gresss.com" title="GRESSS" target="_blank">
+							<img src="portfolio/gresss.png" alt="GRESSS" />
+						</a>
 						<div class="description">
-							<h3><a href="http://gresss.com" title="GRESSS" target="_blank">GRESSS Website</a></h3>
+							<h3>
+								<a href="http://gresss.com" title="GRESSS" target="_blank">GRESSS Website</a>
+							</h3>
 							<p>I designed and coded a simple website for a freelance client.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/Cellpocalypse.html" title="Cellpocalypse" target="_blank"><img src="portfolio/Cellpocalypse.png" alt="Cellpocalypse" /></a>
+						<a class="thumbnail" href="portfolio/Cellpocalypse.html" title="Cellpocalypse" target="_blank">
+							<img src="portfolio/Cellpocalypse.png" alt="Cellpocalypse" />
+						</a>
 						<div class="description">
-							<h3><a href="portfolio/Cellpocalypse.html" title="Cellpocalypse" target="_blank">Cellpocalypse</a></h3>
+							<h3>
+								<a href="portfolio/Cellpocalypse.html" title="Cellpocalypse" target="_blank">Cellpocalypse</a>
+							</h3>
 							<p>A weekend prototype exploring the needs of cooperative play: two players must work together to protect a cell from incoming viruses. Written in <a href="http://www.actionscript.org/" target="_blank">ActionScript 3.0</a>.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/MiniMania.html" title="Mini Mania" target="_blank"><img src="portfolio/MiniMania.png" alt="Mini Mania" /></a>
+						<a class="thumbnail" href="portfolio/MiniMania.html" title="Mini Mania" target="_blank">
+							<img src="portfolio/MiniMania.png" alt="Mini Mania" />
+						</a>
 						<div class="description">
-							<h3><a href="portfolio/MiniMania.html" title="Mini Mania" target="_blank">Mini Mania</a></h3>
+							<h3>
+								<a href="portfolio/MiniMania.html" title="Mini Mania" target="_blank">Mini Mania</a>
+							</h3>
 							<p>A final project illustrating the difference between a game and a 'toy'. Randomly generated tracks provide the player with an infinite number of new obstacles! Uses 2D game physics and a <a href="http://www.coreyoneil.com/portfolio/index.php?project=5">pixel-perfect collision detection library</a>.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/BigMack.html" title="Big Mack Attack" target="_blank"><img src="portfolio/BigMack.png" alt="Big Mack Attack" /></a>
+						<a class="thumbnail" href="portfolio/BigMack.html" title="Big Mack Attack" target="_blank">
+							<img src="portfolio/BigMack.png" alt="Big Mack Attack" />
+						</a>
 						<div class="description">
-							<h3><a href="portfolio/BigMack.html" title="Big Mack Attack" target="_blank">Big Mack Attack</a></h3>
+							<h3>
+								<a href="portfolio/BigMack.html" title="Big Mack Attack" target="_blank">Big Mack Attack</a>
+							</h3>
 							<p>An exercise in raising awareness of a social issue through a game. One player navigates through each floor of a fast-food company's headquarters in order to save the city from obesity.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/greeps.html" title="Greeps" target="_blank"><img src="portfolio/Greeps.png" alt="Greeps" /></a>
+						<a class="thumbnail" href="portfolio/greeps.html" title="Greeps" target="_blank">
+							<img src="portfolio/Greeps.png" alt="Greeps" />
+						</a>
 						<div class="description">
-							<h3><a href="portfolio/greeps.html" title="Greeps" target="_blank">Greeps Contest Entry - 2nd Place Winner</a></h3>
+							<h3>
+								<a href="portfolio/greeps.html" title="Greeps" target="_blank">Greeps Contest Entry - 2nd Place Winner</a>
+							</h3>
 							<p>My submission to DU's <a href="http://www.greenfoot.org/competition/greeps/index.html">Greenfoot Greeps Contest</a>. The goal was to collect the most tomatoes by modifying ONLY the greeps' behavior (no extra memory allocation permitted).</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/SpaceFighter/index.html" title="Space Fighter" target="_blank"><img src="portfolio/SpaceFighter.png" alt="Space Fighter" /></a>
+						<a class="thumbnail" href="portfolio/SpaceFighter/index.html" title="Space Fighter" target="_blank">
+							<img src="portfolio/SpaceFighter.png" alt="Space Fighter" />
+						</a>
 						<div class="description">
-							<h3><a href="portfolio/SpaceFighter/index.html" title="Space Fighter" target="_blank">Space Fighter</a></h3>
+							<h3>
+								<a href="portfolio/SpaceFighter/index.html" title="Space Fighter" target="_blank">Space Fighter</a>
+							</h3>
 							<p>My first Java project, originally created in <a href="http://www.greenfoot.org/">Greenfoot</a> and rewritten in <a href="http://www.processing.org">Processing</a>. Maneuver through increasingly cluttered, randomly-generated asteroids to get a highscore.</p>
 						</div>
 					</article>
@@ -169,24 +234,26 @@
 
 			<div class="page" id="skills">
 				<h2>Skills</h2>
-				<ul id="skill-list" class="inline-list styled-links">
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>jQuery</li>
-					<li>PHP</li>
-					<li>Laravel</li>
-					<li>CodeIgniter</li>
-					<li>Magento</li>
-					<li>Bootstrap</li>
-					<li>Responsive Design</li>
-					<li>MySQL</li>
-					<li>MongoDB</li>
-					<li>API Development</li>
-					<li>Git</li>
-					<li>SVN</li>
-					<li>Server Administration</li>
-				</ul>
+				<section>
+					<ul class="inline-list styled-links">
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>jQuery</li>
+						<li>PHP</li>
+						<li>Laravel</li>
+						<li>CodeIgniter</li>
+						<li>Magento</li>
+						<li>Bootstrap</li>
+						<li>Responsive Design</li>
+						<li>MySQL</li>
+						<li>MongoDB</li>
+						<li>API Development</li>
+						<li>Git</li>
+						<li>SVN</li>
+						<li>Server Administration</li>
+					</ul>
+				</section>
 			</div>
 			<div class="page" id="about">
 				<h2>About Me</h2>
@@ -285,18 +352,7 @@
 	<footer>
 		<p>&copy; <?php echo date('Y'); ?> Sara Bine</p>
 	</footer>
-	<script>
-		var email = 'sara' + '' + '@' + 'sarabine' + '.' + 'com';
-		var emailElements = document.getElementsByClassName('email');
-		var item;
-		for (var i = 0; i < emailElements.length; i++) {
-			item = emailElements[i];
-			if (item.innerHTML.length === 0) {
-				item.innerHTML = item.innerHTML + email;
-			}
-			item.href = 'mailto:' + email;
-		}
-	</script>
+	<script type="text/javascript" src="assets/js/app.min.js"></script>
 	<script>
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

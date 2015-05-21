@@ -1,15 +1,19 @@
-@contentWidth: 800px;
-@thumbnailWidth: 150px;
+@contentWidth:        800px;
+@thumbnailWidth:      150px;
 
-@contentOffset: 30px;
+@contentOffset:       30px;
 
-@purple: #AA22CC;
-@grayDark: #444;
-@grayLight: #DDD;
+@purple:              #AA22CC;
+@grayDark:            #444;
+@grayLight:           #DDD;
 
-@linkColor: #DD0044;
+@linkColor:           #DD0044;
 @linkBackgroundColor: #CC0000;
-@linkPadding: 3px 6px 4px;
+@linkPadding:         3px 6px 4px;
+
+@headingFont:         'Lobster';
+@synopsisFont:        'Playfair Display';
+@copyFont:            Georgia;
 
 html, body {
 	margin: 0;
@@ -17,7 +21,7 @@ html, body {
 }
 
 body {
-	font-family: Georgia, sans-serif;
+	font-family: @copyFont, sans-serif;
 	line-height: 1.5;
 	background-color: #FAFAFA;
 	font-size: 1em;
@@ -66,7 +70,7 @@ a {
 #logo {
 	padding: 5px 0 0 0;
 	float: left;
-	font-family: 'Lobster', serif;
+	font-family: @headingFont, serif;
 	font-size: 2.2em;
 	color: #c03;
 }
@@ -92,7 +96,7 @@ a {
 #synopsis {
 	padding: 10px 0 40px @contentOffset;
 	font-size: 1.3em;
-	font-family: 'Playfair Display', serif;
+	font-family: @synopsisFont, serif;
 }
 
 .page {
@@ -108,7 +112,7 @@ a {
 		}
 	}
 	h2 {
-		font-family: 'Lobster', serif;
+		font-family: @headingFont, serif;
 		font-size: 2em;
 		margin-bottom: 30px;
 	}
@@ -176,7 +180,7 @@ footer {
 		}
 		margin: 5px 5px 5px 0;
 		display: inline-block;
-		border: 1px solid #ddd;
+		border: 1px solid @grayLight;
 		border-radius: 4px;
 	}
 }
