@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Sara Bine</title>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
 	<meta name="description" content="I am a Web Developer with a love for new technology, web application and site development, mobile programming, and game programming.">
 	<meta name="keywords" content="sara,bine,web,site,developer,development,game,mobile,programming,programmer">
 	<meta name="author" content="Sara Bine">
@@ -145,14 +145,14 @@
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/BombBreak/BombBreak.html" title="Bomb Break" target="_blank">
+						<a class="thumbnail" href="portfolio/BombBreak/" title="Bomb Break" target="_blank">
 							<img src="portfolio/BombBreak/BombBreak.png" alt="Bomb Break" />
 						</a>
 						<div class="description">
 							<h3>
-								<a href="portfolio/BombBreak/BombBreak.html" title="Bomb Break" target="_blank">Bomb Break</a>
+								<a href="portfolio/BombBreak/" title="Bomb Break" target="_blank">Bomb Break</a>
 							</h3>
-							<p>A experiment using the <a href="http://en.wikipedia.org/wiki/Stroop_effect" target="_blank">Stroop Effect</a> as a game mechanic, featuring an in-depth story line alongside fast-paced gameplay. Written in <a href="http://www.actionscript.org/" target="_blank">ActionScript 3.0</a>.</p>
+							<p>An experiment using the <a href="http://en.wikipedia.org/wiki/Stroop_effect" target="_blank">Stroop Effect</a> as a game mechanic, featuring an in-depth story line alongside fast-paced gameplay. Written in <a href="http://www.actionscript.org/" target="_blank">ActionScript 3.0</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -167,6 +167,17 @@
 						</div>
 					</article>
 					<article class="project">
+						<a class="thumbnail" href="portfolio/Breakout/" title="Breakout" target="_blank">
+							<img src="portfolio/Breakout.png" alt="Breakout" />
+						</a>
+						<div class="description">
+							<h3>
+								<a href="portfolio/Breakout/" title="Breakout" target="_blank">Breakout</a>
+							</h3>
+							<p>An implementation of the classic game Breakout. Written in <a href="http://www.actionscript.org/" target="_blank">ActionScript 3.0</a>.</p>
+						</div>
+					</article>
+					<article class="project">
 						<a class="thumbnail" href="http://gresss.com" title="GRESSS" target="_blank">
 							<img src="portfolio/gresss.png" alt="GRESSS" />
 						</a>
@@ -178,56 +189,56 @@
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/Cellpocalypse.html" title="Cellpocalypse" target="_blank">
+						<a class="thumbnail" href="portfolio/Cellpocalypse/" title="Cellpocalypse" target="_blank">
 							<img src="portfolio/Cellpocalypse.png" alt="Cellpocalypse" />
 						</a>
 						<div class="description">
 							<h3>
-								<a href="portfolio/Cellpocalypse.html" title="Cellpocalypse" target="_blank">Cellpocalypse</a>
+								<a href="portfolio/Cellpocalypse/" title="Cellpocalypse" target="_blank">Cellpocalypse</a>
 							</h3>
 							<p>A weekend prototype exploring the needs of cooperative play: two players must work together to protect a cell from incoming viruses. Written in <a href="http://www.actionscript.org/" target="_blank">ActionScript 3.0</a>.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/MiniMania.html" title="Mini Mania" target="_blank">
+						<a class="thumbnail" href="portfolio/MiniMania/" title="Mini Mania" target="_blank">
 							<img src="portfolio/MiniMania.png" alt="Mini Mania" />
 						</a>
 						<div class="description">
 							<h3>
-								<a href="portfolio/MiniMania.html" title="Mini Mania" target="_blank">Mini Mania</a>
+								<a href="portfolio/MiniMania/" title="Mini Mania" target="_blank">Mini Mania</a>
 							</h3>
 							<p>A final project illustrating the difference between a game and a 'toy'. Randomly generated tracks provide the player with an infinite number of new obstacles! Uses 2D game physics and a <a href="http://www.coreyoneil.com/portfolio/index.php?project=5">pixel-perfect collision detection library</a>.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/BigMack.html" title="Big Mack Attack" target="_blank">
+						<a class="thumbnail" href="portfolio/BigMack/" title="Big Mack Attack" target="_blank">
 							<img src="portfolio/BigMack.png" alt="Big Mack Attack" />
 						</a>
 						<div class="description">
 							<h3>
-								<a href="portfolio/BigMack.html" title="Big Mack Attack" target="_blank">Big Mack Attack</a>
+								<a href="portfolio/BigMack/" title="Big Mack Attack" target="_blank">Big Mack Attack</a>
 							</h3>
 							<p>An exercise in raising awareness of a social issue through a game. One player navigates through each floor of a fast-food company's headquarters in order to save the city from obesity.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/greeps.html" title="Greeps" target="_blank">
+						<a class="thumbnail" href="portfolio/Greeps/" title="Greeps" target="_blank">
 							<img src="portfolio/Greeps.png" alt="Greeps" />
 						</a>
 						<div class="description">
 							<h3>
-								<a href="portfolio/greeps.html" title="Greeps" target="_blank">Greeps Contest Entry - 2nd Place Winner</a>
+								<a href="portfolio/Greeps/" title="Greeps" target="_blank">Greeps Contest Entry - 2nd Place Winner</a>
 							</h3>
 							<p>My submission to DU's <a href="http://www.greenfoot.org/competition/greeps/index.html">Greenfoot Greeps Contest</a>. The goal was to collect the most tomatoes by modifying ONLY the greeps' behavior (no extra memory allocation permitted).</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="portfolio/SpaceFighter/index.html" title="Space Fighter" target="_blank">
+						<a class="thumbnail" href="portfolio/SpaceFighter/" title="Space Fighter" target="_blank">
 							<img src="portfolio/SpaceFighter.png" alt="Space Fighter" />
 						</a>
 						<div class="description">
 							<h3>
-								<a href="portfolio/SpaceFighter/index.html" title="Space Fighter" target="_blank">Space Fighter</a>
+								<a href="portfolio/SpaceFighter/" title="Space Fighter" target="_blank">Space Fighter</a>
 							</h3>
 							<p>My first Java project, originally created in <a href="http://www.greenfoot.org/">Greenfoot</a> and rewritten in <a href="http://www.processing.org">Processing</a>. Maneuver through increasingly cluttered, randomly-generated asteroids to get a highscore.</p>
 						</div>
