@@ -241,7 +241,7 @@
 
 			<div class="page" id="contact">
 				<h2>Contact</h2>
-				<ul class="unstyled-list styled-links">
+				<ul class="tiled-list">
 					<li>
 						<a href="http://www.linkedin.com/in/sarabine" title="LinkedIn" target="_blank">
 							<img src="assets/img/linkedin.png" alt="Contact me on LinkedIn">

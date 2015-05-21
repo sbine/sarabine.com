@@ -157,7 +157,7 @@ footer {
 	padding: 10px 0;
 }
 
-.unstyled-list {
+.tiled-list {
 	list-style: none;
 	li {
 		img {
@@ -165,12 +165,16 @@ footer {
 			margin-right: 10px;
 		}
 		a {
+			display: inline-block;
 			padding: 20px 15px 5px;
 			width: 200px;
 			height: 50px;
-			display: inline-block;
+			background-color: rgba(200, 200, 200, 0.1);
+			&:hover {
+				background-color: rgba(200, 200, 200, 0.2);
+			}
 		}
-		margin: 5px 3px;
+		margin: 5px 5px 5px 0;
 		display: inline-block;
 		border: 1px solid #ddd;
 		border-radius: 4px;
@@ -189,11 +193,6 @@ footer {
 @media screen and (max-width: 1024px) {
 	#header {
 		background-size: auto;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	#header {
 		#header-content {
 			width: 100%;
 			padding: 0 10px;
@@ -205,12 +204,21 @@ footer {
 			margin: 0;
 		}
 	}
+	#content {
+		width: 90%;
+		margin: auto;
+		padding: 0 50px 0 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#header-content {
+		width: 100%;
+		padding: 0 10px;
+	}
 	#synopsis {
 		padding-left: 10px;
 		padding-right: 10px;
-	}
-	#content {
-		width: 100%;
 	}
 	.page {
 		& > section {
@@ -232,12 +240,18 @@ footer {
 	.inline-list {
 		padding-left: 10px;
 	}
+	.tiled-list {
+		padding: 0;
+	}
 }
 
-@media screen and (max-device-width: 480px) {
+@media screen and (max-device-width: 480px), screen and (max-width: 480px) {
 	.project {
 		height: auto;
 		float: none;
 		margin-bottom: 50px;
+		.description {
+			margin-top: 10px;
+		}
 	}
 }
