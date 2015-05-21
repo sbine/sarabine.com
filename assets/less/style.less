@@ -41,6 +41,10 @@ a {
 	&:hover {
 		color: darken(@linkColor, 20%);
 	}
+	// For IE
+	img {
+		border: 0;
+	}
 }
 
 #header {
@@ -251,7 +255,6 @@ footer {
 @media screen and (max-device-width: 480px), screen and (max-width: 480px) {
 	.project {
 		height: auto;
-		float: none;
 		margin-bottom: 50px;
 		.description {
 			margin-top: 10px;

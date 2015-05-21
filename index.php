@@ -10,6 +10,9 @@
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic" rel="stylesheet" type="text/css">
+	<!--[if lte IE 8]>
+		<script src="assets/js/html5shiv.min.js" type="text/javascript"></script>
+	<![endif]-->
 	<link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -251,6 +254,8 @@
 						<li>API Development</li>
 						<li>Git</li>
 						<li>SVN</li>
+						<li>Bash</li>
+						<li>Amazon Web Services</li>
 						<li>Server Administration</li>
 					</ul>
 				</section>
