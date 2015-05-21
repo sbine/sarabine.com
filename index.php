@@ -263,7 +263,7 @@
 			<div class="page" id="about">
 				<h2>About Me</h2>
 				<section>
-					<div class="thumbnail"><img id="me" src="assets/img/me.jpg" alt="Me celebrating the conclusion of the GRE!" /></div>
+					<div class="thumbnail"><img id="me" src="assets/img/me.png" alt="Me celebrating the conclusion of the GRE!" /></div>
 					<div class="description">
 						<p>I'm a graduate from the University of Denver with a Bachelor's degree in Computer Science and a focus in Digital Media. I have a strong background in web development and game programming, and particularly enjoy learning and leveraging the latest web technologies.</p>
 						<p>I discovered my love for computers through Internet Relay Chat, which led me to my <a href="http://www.ikick.eu" title="iKick.eu" target="_blank">first coding project</a> spanning 4 years and containing over 10,000 lines of code.</p>
@@ -357,8 +357,18 @@
 	<footer>
 		<p>&copy; <?php echo date('Y'); ?> Sara Bine</p>
 	</footer>
-	<script type="text/javascript" src="assets/js/app.min.js"></script>
 	<script>
+		var email = 'sara' + '' + '@' + 'sarabine' + '.' + 'com';
+		var emailElements = document.getElementsByClassName('email');
+		var item;
+		for (var i = 0; i < emailElements.length; i++) {
+			item = emailElements[i];
+			if (item.innerHTML.length === 0) {
+				item.innerHTML = item.innerHTML + email;
+			}
+			item.href = 'mailto:' + email;
+		}
+
 		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
