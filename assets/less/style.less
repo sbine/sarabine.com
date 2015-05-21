@@ -105,11 +105,9 @@ a {
 	position: relative;
 	overflow: visible;
 	clear: both;
-	& > section {
+	section {
 		position: relative;
-		& > .thumbnail {
-			margin-left: @contentOffset;
-		}
+		margin-left: @contentOffset;
 	}
 	h2 {
 		font-family: @headingFont, serif;
@@ -143,7 +141,7 @@ a {
 		position: absolute;
 		top: 0;
 		width: 75%;
-		left: @thumbnailWidth + (@contentOffset * 1.5);
+		left: @thumbnailWidth + @contentOffset + 5px;
 	}
 	.class-name {
 		font-weight: bold;
@@ -151,7 +149,7 @@ a {
 }
 
 .project {
-	margin: 20px 0 0 @contentOffset;
+	margin: 20px 0 0;
 	position: relative;
 }
 
@@ -171,7 +169,7 @@ footer {
 		a {
 			display: inline-block;
 			padding: 20px 15px 5px;
-			width: 200px;
+			width: 210px;
 			height: 50px;
 			background-color: rgba(200, 200, 200, 0.1);
 			&:hover {
@@ -185,9 +183,12 @@ footer {
 	}
 }
 
-.inline-list li {
-	display: inline;
-	padding: 5px 10px 5px 0;
+.inline-list {
+	li {
+		display: inline;
+		padding: 5px 10px 5px 0;
+	}
+	padding: 0;
 }
 
 .cursive {
@@ -213,6 +214,9 @@ footer {
 		margin: auto;
 		padding: 0 50px 0 0;
 	}
+	.tiled-list li a {
+		width: 240px;
+	}
 }
 
 @media screen and (max-width: 767px) {
@@ -225,12 +229,7 @@ footer {
 		padding-right: 10px;
 	}
 	.page {
-		& > section {
-			& > .thumbnail {
-				margin-left: 10px;
-			}
-		}
-		.project {
+		section {
 			margin-left: 10px;
 		}
 		.thumbnail img {
