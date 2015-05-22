@@ -207,7 +207,7 @@
 							<h3>
 								<a href="portfolio/MiniMania/" title="Mini Mania" target="_blank">Mini Mania</a>
 							</h3>
-							<p>A final project illustrating the difference between a game and a 'toy'. Randomly generated tracks provide the player with an infinite number of new obstacles! Uses 2D game physics and a <a href="http://www.coreyoneil.com/portfolio/index.php?project=5">pixel-perfect collision detection library</a>.</p>
+							<p>A final project illustrating the difference between a game and a 'toy'. Randomly generated tracks provide the player with an infinite number of new obstacles! Uses 2D game physics and a <a href="https://code.google.com/p/collisiondetectionkit/" target="_blank">pixel-perfect collision detection library</a>.</p>
 						</div>
 					</article>
 					<article class="project">
