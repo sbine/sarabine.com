@@ -64,7 +64,7 @@
 								</a>
 								<a href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank">ReactJS Sudoku</a>
 							</h3>
-							<p>I created a self-validating Sudoku game in order to learn <a href="https://facebook.github.io/react/" title="React">ReactJS</a>.</p>
+							<p>I created a self-validating Sudoku game in order to learn <a href="https://facebook.github.io/react/" title="React" target="_blank">ReactJS</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -141,7 +141,7 @@
 							<h3>
 								<a href="http://profilepicmaker.com" title="Profile Pic Maker" target="_blank">Profile Pic Maker</a>
 							</h3>
-							<p>A profile picture uploader, editor and cropper capitalizing on Facebook's new layout. Written in PHP, JavaScript/jQuery, Ajax, and the PHP library <a href="http://www.imagemagick.org/script/index.php" target="_blank">ImageMagick</a>.</p>
+							<p>A profile picture uploader, editor and cropper capitalizing on Facebook's new layout. Written in PHP, JavaScript/jQuery, Ajax, and the PHP library <a href="http://www.imagemagick.org/script/index.php" title="ImageMagick" target="_blank">ImageMagick</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -152,7 +152,7 @@
 							<h3>
 								<a href="portfolio/BombBreak/" title="Bomb Break" target="_blank">Bomb Break</a>
 							</h3>
-							<p>An experiment using the <a href="http://en.wikipedia.org/wiki/Stroop_effect" target="_blank">Stroop Effect</a> as a game mechanic, featuring an in-depth story line alongside fast-paced gameplay. Written in <a href="http://www.actionscript.org/" target="_blank">ActionScript 3.0</a>.</p>
+							<p>An experiment using the <a href="http://en.wikipedia.org/wiki/Stroop_effect" title="Stroop Effect" target="_blank">Stroop Effect</a> as a game mechanic, featuring an in-depth story line alongside fast-paced gameplay. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank">ActionScript 3.0</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -163,7 +163,7 @@
 							<h3>
 								<a href="portfolio/twitter/" title="Twitter Aggregator" target="_blank">Twitter Aggregator</a>
 							</h3>
-							<p>A Twitter feed aggregator that measures and visualizes word frequency in real-time tweets. Written in PHP and <a href="http://www.processing.org/" target="_blank">Processing</a>.</p>
+							<p>A Twitter feed aggregator that measures and visualizes word frequency in real-time tweets. Written in PHP and <a href="http://www.processing.org/" title="Processing" target="_blank">Processing</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -174,7 +174,7 @@
 							<h3>
 								<a href="portfolio/Breakout/" title="Breakout" target="_blank">Breakout</a>
 							</h3>
-							<p>An implementation of the classic game Breakout. Written in <a href="http://www.actionscript.org/" target="_blank">ActionScript 3.0</a>.</p>
+							<p>An implementation of the classic game Breakout. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank">ActionScript 3.0</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -196,7 +196,7 @@
 							<h3>
 								<a href="portfolio/Cellpocalypse/" title="Cellpocalypse" target="_blank">Cellpocalypse</a>
 							</h3>
-							<p>A weekend prototype exploring the needs of cooperative play: two players must work together to protect a cell from incoming viruses. Written in <a href="http://www.actionscript.org/" target="_blank">ActionScript 3.0</a>.</p>
+							<p>A weekend prototype exploring the needs of cooperative play: two players must work together to protect a cell from incoming viruses. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank">ActionScript 3.0</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -207,7 +207,7 @@
 							<h3>
 								<a href="portfolio/MiniMania/" title="Mini Mania" target="_blank">Mini Mania</a>
 							</h3>
-							<p>A final project illustrating the difference between a game and a 'toy'. Randomly generated tracks provide the player with an infinite number of new obstacles! Uses 2D game physics and a <a href="https://code.google.com/p/collisiondetectionkit/" target="_blank">pixel-perfect collision detection library</a>.</p>
+							<p>A final project illustrating the difference between a game and a 'toy'. Randomly generated tracks provide the player with an infinite number of new obstacles! Uses 2D game physics and a <a href="https://code.google.com/p/collisiondetectionkit/" title="Collision Detection Kit" target="_blank">pixel-perfect collision detection library</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -229,7 +229,7 @@
 							<h3>
 								<a href="portfolio/Greeps/" title="Greeps" target="_blank">Greeps Contest Entry - 2nd Place Winner</a>
 							</h3>
-							<p>My submission to DU's <a href="http://www.greenfoot.org/competition/greeps/index.html">Greenfoot Greeps Contest</a>. The goal was to collect the most tomatoes by modifying ONLY the greeps' behavior (no extra memory allocation permitted).</p>
+							<p>My submission to DU's <a href="http://www.greenfoot.org/competition/greeps/index.html" title="Greenfoot Greeps Contest" target="_blank">Greenfoot Greeps Contest</a>. The goal was to collect the most tomatoes by modifying ONLY the greeps' behavior (no extra memory allocation permitted).</p>
 						</div>
 					</article>
 					<article class="project">
@@ -240,7 +240,7 @@
 							<h3>
 								<a href="portfolio/SpaceFighter/" title="Space Fighter" target="_blank">Space Fighter</a>
 							</h3>
-							<p>My first Java project, originally created in <a href="http://www.greenfoot.org/">Greenfoot</a> and rewritten in <a href="http://www.processing.org">Processing</a>. Maneuver through increasingly cluttered, randomly-generated asteroids to get a highscore.</p>
+							<p>My first Java project, originally created in <a href="http://www.greenfoot.org/" title="Greenfoot" target="_blank">Greenfoot</a> and rewritten in <a href="http://www.processing.org" title="Processing" target="_blank">Processing</a>. Maneuver through increasingly cluttered, randomly-generated asteroids to get a highscore.</p>
 						</div>
 					</article>
 				</section>
