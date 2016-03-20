@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Sara Bine</title>
 	<meta charset="UTF-8">
@@ -8,8 +8,8 @@
 	<meta name="author" content="Sara Bine">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400italic" rel="stylesheet" type="text/css">
 	<!--[if lte IE 8]>
 		<script src="assets/js/html5shiv.min.js" type="text/javascript"></script>
 	<![endif]-->
@@ -20,9 +20,9 @@
 		<div id="header-content">
 			<h1 id="logo">Sara Bine</h1>
 			<div class="social">
-				<a href="http://linkedin.com/in/sarabine" title="LinkedIn" target="_blank"><img src="assets/img/linkedin.png" alt="Contact me on LinkedIn"></a>
+				<a href="https://linkedin.com/in/sarabine" title="LinkedIn" target="_blank"><img src="assets/img/linkedin.png" alt="Contact me on LinkedIn"></a>
 				<a href="https://plus.google.com/+SaraBine/about" title="Google+" target="_blank"><img src="assets/img/google-plus.png" alt="Contact me on Google+"></a>
-				<!--<a href="http://facebook.com/sarabine" title="Facebook" target="_blank"><img src="assets/img/facebook.png" alt="Contact me on Facebook"></a>-->
+				<!--<a href="https://facebook.com/sarabine" title="Facebook" target="_blank"><img src="assets/img/facebook.png" alt="Contact me on Facebook"></a>-->
 				<!--<a href="https://twitter.com/sara_bine" title="Twitter" target="_blank"><img src="assets/img/twitter.png" alt="Contact me on Twitter"></a>-->
 				<a href="https://github.com/sbine" title="GitHub" target="_blank"><img src="assets/img/github.png" alt="View my GitHub"></a>
 				<!--<a class="email" title="Email"><img src="assets/img/email.png" alt="Email me"></a>-->
@@ -50,7 +50,7 @@
 								</a>
 								<a href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank">Bdgt Finance</a>
 							</h3>
-							<p>I maintain a <a href="http://laravel.com/" title="Laravel" target="_blank">Laravel</a>-based financial planning app as a side project.</p>
+							<p>I maintain a <a href="https://laravel.com/" title="Laravel" target="_blank">Laravel</a>-based financial planning app as a side project.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -75,16 +75,16 @@
 							<h3>
 								<a href="http://transactionalfunding.com" title="Transactional Funding" target="_blank">Transactional Funding</a>
 							</h3>
-							<p>I integrated a client's <a href="http://wordpress.org/" title="WordPress" target="_blank">WordPress</a> site with the <a href="http://recurly.com/" title="Recurly" target="_blank">Recurly</a> API via a custom plugin.</p>
+							<p>I integrated a client's <a href="https://wordpress.org/" title="WordPress" target="_blank">WordPress</a> site with the <a href="https://recurly.com/" title="Recurly" target="_blank">Recurly</a> API via a custom plugin.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="http://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank">
+						<a class="thumbnail" href="https://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank">
 							<img src="portfolio/bopitsmash.png" alt="Bop It! Smash" />
 						</a>
 						<div class="description">
 							<h3>
-								<a href="http://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank">Bop It! Smash</a>
+								<a href="https://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank">Bop It! Smash</a>
 							</h3>
 							<p>I managed the data interchange behind iOS app Bop It! Smash with JSON, including user segmentation and in-app promotions.</p>
 						</div>
@@ -112,23 +112,23 @@
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="http://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank">
+						<a class="thumbnail" href="https://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank">
 							<img src="portfolio/ubz.png" alt="Ultimate Battle Zombies" />
 						</a>
 						<div class="description">
 							<h3>
-								<a href="http://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank">Ultimate Battle Zombies</a>
+								<a href="https://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank">Ultimate Battle Zombies</a>
 							</h3>
 							<p>I was responsible for all data interchange behind iOS game Ultimate Battle Zombies and developed several mobile websites used in-app.</p>
 						</div>
 					</article>
 					<article class="project">
-						<a class="thumbnail" href="http://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank">
+						<a class="thumbnail" href="https://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank">
 							<img src="portfolio/mpz.png" alt="My Pet Zombie" />
 						</a>
 						<div class="description">
 							<h3>
-								<a href="http://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank">My Pet Zombie</a>
+								<a href="https://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank">My Pet Zombie</a>
 							</h3>
 							<p>I worked on the backend for the My Pet Zombie in-app purchase store and was responsible for all data interchange with JSON.</p>
 						</div>
@@ -141,7 +141,7 @@
 							<h3>
 								<a href="http://profilepicmaker.com" title="Profile Pic Maker" target="_blank">Profile Pic Maker</a>
 							</h3>
-							<p>A profile picture uploader, editor and cropper capitalizing on Facebook's new layout. Written in PHP, JavaScript/jQuery, Ajax, and the PHP library <a href="http://www.imagemagick.org/script/index.php" title="ImageMagick" target="_blank">ImageMagick</a>.</p>
+							<p>A profile picture uploader, editor and cropper capitalizing on Facebook's new layout. Written in PHP, JavaScript/jQuery, Ajax, and the PHP library <a href="https://www.imagemagick.org/script/index.php" title="ImageMagick" target="_blank">ImageMagick</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -152,7 +152,7 @@
 							<h3>
 								<a href="portfolio/BombBreak/" title="Bomb Break" target="_blank">Bomb Break</a>
 							</h3>
-							<p>An experiment using the <a href="http://en.wikipedia.org/wiki/Stroop_effect" title="Stroop Effect" target="_blank">Stroop Effect</a> as a game mechanic, featuring an in-depth story line alongside fast-paced gameplay. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank">ActionScript 3.0</a>.</p>
+							<p>An experiment using the <a href="https://en.wikipedia.org/wiki/Stroop_effect" title="Stroop Effect" target="_blank">Stroop Effect</a> as a game mechanic, featuring an in-depth story line alongside fast-paced gameplay. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank">ActionScript 3.0</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -163,7 +163,7 @@
 							<h3>
 								<a href="portfolio/twitter/" title="Twitter Aggregator" target="_blank">Twitter Aggregator</a>
 							</h3>
-							<p>A Twitter feed aggregator that measures and visualizes word frequency in real-time tweets. Written in PHP and <a href="http://www.processing.org/" title="Processing" target="_blank">Processing</a>.</p>
+							<p>A Twitter feed aggregator that measures and visualizes word frequency in real-time tweets. Written in PHP and <a href="https://www.processing.org/" title="Processing" target="_blank">Processing</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -207,7 +207,7 @@
 							<h3>
 								<a href="portfolio/MiniMania/" title="Mini Mania" target="_blank">Mini Mania</a>
 							</h3>
-							<p>A final project illustrating the difference between a game and a 'toy'. Randomly generated tracks provide the player with an infinite number of new obstacles! Uses 2D game physics and a <a href="https://code.google.com/p/collisiondetectionkit/" title="Collision Detection Kit" target="_blank">pixel-perfect collision detection library</a>.</p>
+							<p>A final project illustrating the difference between a game and a 'toy'. Randomly generated tracks provide the player with an infinite number of new obstacles! Uses 2D game physics and a <a href="https://code.google.com/archive/p/collisiondetectionkit/" title="Collision Detection Kit" target="_blank">pixel-perfect collision detection library</a>.</p>
 						</div>
 					</article>
 					<article class="project">
@@ -240,7 +240,7 @@
 							<h3>
 								<a href="portfolio/SpaceFighter/" title="Space Fighter" target="_blank">Space Fighter</a>
 							</h3>
-							<p>My first Java project, originally created in <a href="http://www.greenfoot.org/" title="Greenfoot" target="_blank">Greenfoot</a> and rewritten in <a href="http://www.processing.org" title="Processing" target="_blank">Processing</a>. Maneuver through increasingly cluttered, randomly-generated asteroids to get a highscore.</p>
+							<p>My first Java project, originally created in <a href="http://www.greenfoot.org/" title="Greenfoot" target="_blank">Greenfoot</a> and rewritten in <a href="https://www.processing.org" title="Processing" target="_blank">Processing</a>. Maneuver through increasingly cluttered, randomly-generated asteroids to get a highscore.</p>
 						</div>
 					</article>
 				</section>
@@ -250,14 +250,14 @@
 				<h2>Skills</h2>
 				<section>
 					<ul class="inline-list styled-links">
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-						<li>jQuery</li>
 						<li>PHP</li>
 						<li>Laravel</li>
 						<li>CodeIgniter</li>
 						<li>Magento</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+						<li>jQuery</li>
 						<li>Bootstrap</li>
 						<li>Responsive Design</li>
 						<li>MySQL</li>
@@ -276,7 +276,7 @@
 				<section>
 					<div class="thumbnail"><img id="me" src="assets/img/me.png" alt="Me celebrating the conclusion of the GRE!" /></div>
 					<div class="description">
-						<p>I'm a graduate from the University of Denver with a Bachelor's degree in Computer Science and a focus in Digital Media. I have a strong background in web development and game programming, and particularly enjoy learning and leveraging the latest web technologies.</p>
+						<p>I'm a University of Denver alumna with a Bachelor's degree in Computer Science and a focus in Digital Media. I have a strong background in web development and game programming, and particularly enjoy learning and leveraging the latest web technologies.</p>
 						<p>I discovered my love for computers through Internet Relay Chat, which led me to my <a href="http://www.ikick.eu" title="iKick.eu" target="_blank">first coding project</a> spanning 4 years and containing over 10,000 lines of code.</p>
 						<p>Currently, I'm employed at an innovative marketing &amp; technology company developing software for the higher education industry.</p>
 					</div>
@@ -300,12 +300,12 @@
 					<li><span class="class-name">Computing and Society</span> &nbsp;// Effects of technology on society</li>
 					<li><span class="class-name">Systems Programming</span> &nbsp;// C and C++</li>
 					<li><span class="class-name">Operating Systems</span> &nbsp;// C, <a href="http://www.pintool.org/" title="pin tool" target="new">pin tool</a>, <a href="http://www.gnuplot.info/" title="gnuplot" target="new">gnuplot</a></li>
-					<li><span class="class-name">Software Tools</span> &nbsp;// shell scripting: bash, awk, sed, <a href="http://www.perl.org/" title="perl" target="new">perl</a>, <a href="http://www.python.org/" title="python" target="new">python</a>, <a href="http://php.net/" title="PHP" target="new">PHP</a>, <a href="http://www.latex-project.org/" title="LaTeX" target="new">LaTeX</a></li>
+					<li><span class="class-name">Software Tools</span> &nbsp;// shell scripting: bash, awk, sed, <a href="https://www.perl.org/" title="perl" target="new">perl</a>, <a href="https://www.python.org/" title="python" target="new">python</a>, <a href="https://php.net/" title="PHP" target="new">PHP</a>, <a href="https://www.latex-project.org/" title="LaTeX" target="new">LaTeX</a></li>
 					<li><span class="class-name">Introduction to iPhone Programming</span> &nbsp;// Objective C, <a href="http://www.gnustep.org/" title="GNUstep" target="new">GNUstep</a></li>
 					<li><span class="class-name">Introduction to Game Design</span> &nbsp;// <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="new">ActionScript 3.0</a></li>
-					<li><span class="class-name">Database Organization &amp; Management</span> &nbsp;// Database optimization, <a href="http://www.oracle.com/us/products/database/index.html" title="Oracle" target="new">Oracle</a></li>
+					<li><span class="class-name">Database Organization &amp; Management</span> &nbsp;// Database optimization, <a href="https://www.oracle.com/database/index.html" title="Oracle" target="new">Oracle</a></li>
 					<li><span class="class-name">iPhone Game Development</span> &nbsp;// Objective C, <a href="http://www.openframeworks.cc/" title="openFrameworks" target="new">openFrameworks</a></li>
-					<li><span class="class-name">Game Programming I</span> &nbsp;// C#, <a href="http://msdn.microsoft.com/en-us/library/bb200104.aspx" title="XNA" target="new">XNA</a></li>
+					<li><span class="class-name">Game Programming I</span> &nbsp;// C#, <a href="https://msdn.microsoft.com/en-us/library/bb200104.aspx" title="XNA" target="new">XNA</a></li>
 					<li><span class="class-name">Software Engineering</span> &nbsp;// Software development theory</li>
 					<li><span class="class-name">Secure Software</span> &nbsp;// Security vulnerability awareness and prevention</li>
 					<li><span class="class-name">Computer Forensics</span> &nbsp;// Forensical analysis, methods, and tools</li>
@@ -313,7 +313,7 @@
 				<h3>Digital Media Studies</h3>
 				<ul>
 					<li><span class="class-name">Website Design and Management</span> &nbsp;// Basic web design</li>
-					<li><span class="class-name">Technical Foundations in Digital Media</span> &nbsp;// <a href="http://processing.org/" title="Processing" target="new">Processing</a></li>
+					<li><span class="class-name">Technical Foundations in Digital Media</span> &nbsp;// <a href="https://processing.org/" title="Processing" target="new">Processing</a></li>
 					<li><span class="class-name">Programming for Play</span> &nbsp;// <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="new">ActionScript 3.0</a></li>
 					<li><span class="class-name">Web 2.0 Design &amp; Content Management</span> &nbsp;// User Experience Design</li>
 					<li><span class="class-name">Introduction to 3D Modeling</span> &nbsp;// <a href="http://usa.autodesk.com/adsk/servlet/pc/index?siteID=123112&amp;id=13577897" title="Autodesk Maya" target="new">Autodesk Maya</a></li>
@@ -326,7 +326,7 @@
 				<h2>Contact</h2>
 				<ul class="tiled-list">
 					<li>
-						<a href="http://www.linkedin.com/in/sarabine" title="Contact me on LinkedIn" target="_blank">
+						<a href="https://www.linkedin.com/in/sarabine" title="Contact me on LinkedIn" target="_blank">
 							<img src="assets/img/linkedin.png" alt="Contact me on LinkedIn">
 							LinkedIn
 						</a>
@@ -350,7 +350,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="http://www.facebook.com/sarabine" title="Contact me on Facebook" target="_blank">
+						<a href="https://www.facebook.com/sarabine" title="Contact me on Facebook" target="_blank">
 							<img src="assets/img/facebook.png" alt="Contact me on Facebook">
 							Facebook
 						</a>
