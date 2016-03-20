@@ -1,3 +1,4 @@
+@headerHeight:        275px;
 @contentWidth:        800px;
 @thumbnailWidth:      150px;
 
@@ -48,15 +49,15 @@ a {
 }
 
 #header {
-	height: 255px;
+	height: @headerHeight;
 	max-height: 300px;
 	top: 0;
 	width: 100%;
 	background-color: black;
 	z-index: 10;
-	background-image: url(../img/denver.jpg);
-	background-size: 100%;
-	background-position: 50% 50%;
+	background-image: url(../img/colorado-sinking-sun.jpg);
+	background-size: 110%;
+	background-position: 50% 100%;
 	border-bottom: 1px solid black;
 	#header-content {
 		margin: 0 auto;
@@ -199,13 +200,20 @@ footer {
 	font-style: italic;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
 	#header {
+		height: @headerHeight - 40px;
 		background-size: auto;
+		background-position: 50% 90%;
 		#header-content {
 			width: 100%;
 			padding: 0 10px;
 		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#header {
 		.social {
 			position: absolute;
 			top: 13px;
@@ -224,10 +232,6 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-	#header-content {
-		width: 100%;
-		padding: 0 10px;
-	}
 	#synopsis {
 		padding-left: 10px;
 		padding-right: 10px;

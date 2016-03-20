@@ -16,7 +16,12 @@
 	<link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div id="header">
+	<div id="header" title="Photo: 'Sinking Sun' by Kevin Dinkel">
+		<!--
+			Photo: "Sinking Sun" by Kevin Dinkel (unaltered)
+			Source: https://www.flickr.com/photos/121776594@N07/14273784092/
+			License: https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode
+		-->
 		<div id="header-content">
 			<h1 id="logo">Sara Bine</h1>
 			<div class="social">
