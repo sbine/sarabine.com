@@ -26,9 +26,9 @@
 			<h1 id="logo">Sara Bine</h1>
 			<div class="social">
 				<a href="https://linkedin.com/in/sarabine" title="LinkedIn" target="_blank"><img src="assets/img/linkedin.png" alt="Contact me on LinkedIn"></a>
-				<a href="https://plus.google.com/+SaraBine/about" title="Google+" target="_blank"><img src="assets/img/google-plus.png" alt="Contact me on Google+"></a>
+				<a href="https://twitter.com/sara_bine" title="Twitter" target="_blank"><img src="assets/img/twitter.png" alt="Contact me on Twitter"></a>
+				<!--<a href="https://plus.google.com/+SaraBine/about" title="Google+" target="_blank"><img src="assets/img/google-plus.png" alt="Contact me on Google+"></a>-->
 				<!--<a href="https://facebook.com/sarabine" title="Facebook" target="_blank"><img src="assets/img/facebook.png" alt="Contact me on Facebook"></a>-->
-				<!--<a href="https://twitter.com/sara_bine" title="Twitter" target="_blank"><img src="assets/img/twitter.png" alt="Contact me on Twitter"></a>-->
 				<a href="https://github.com/sbine" title="GitHub" target="_blank"><img src="assets/img/github.png" alt="View my GitHub"></a>
 				<!--<a class="email" title="Email"><img src="assets/img/email.png" alt="Email me"></a>-->
 			</div>
@@ -283,8 +283,14 @@
 					<div class="description">
 						<p>I'm a University of Denver alumna with a Bachelor's degree in Computer Science and a focus in Digital Media. I have a strong background in web development and game programming, and particularly enjoy learning and leveraging the latest web technologies.</p>
 						<p>I discovered my love for computers through Internet Relay Chat, which led me to my <a href="http://www.ikick.eu" title="iKick.eu" target="_blank">first coding project</a> spanning 4 years and containing over 10,000 lines of code.</p>
-						<p>Currently, I'm employed at an innovative marketing &amp; technology company developing software for the higher education industry.</p>
 					</div>
+				</section>
+  				<section class="thumbnail-after">
+					<div class="description">
+						<p>Currently, I'm employed at an innovative marketing &amp; technology company developing software for the higher education industry.</p>
+						<p>When I'm not programming I enjoy playing with my beagle mix Sudo, reading about programming, singing a cappella, playing video games, and drinking copious amounts of coffee.</p>
+					</div>
+					<div class="thumbnail"><img id="sudo" src="assets/img/sudo.jpg" alt="Sudo practicing puppy-dog eyes"></div>
 				</section>
 			</div>
 
@@ -337,9 +343,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://plus.google.com/+SaraBine/about" title="Contact me on Google+" target="_blank">
-							<img src="assets/img/google-plus.png" alt="Contact me on Google+">
-							Google+
+						<a href="https://twitter.com/sara_bine" title="Contact me on Twitter" target="_blank">
+							<img src="assets/img/twitter.png" alt="Contact me on Twitter">
+							Twitter
 						</a>
 					</li>
 					<li>
@@ -349,9 +355,9 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://twitter.com/sara_bine" title="Contact me on Twitter" target="_blank">
-							<img src="assets/img/twitter.png" alt="Contact me on Twitter">
-							Twitter
+						<a href="https://plus.google.com/+SaraBine/about" title="Contact me on Google+" target="_blank">
+							<img src="assets/img/google-plus.png" alt="Contact me on Google+">
+							Google+
 						</a>
 					</li>
 					<li>

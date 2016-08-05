@@ -124,6 +124,7 @@ a {
 			border: 1px solid @grayLight;
 			width: @thumbnailWidth;
 		}
+		margin-bottom: 30px;
 	}
 	.description {
 		h3 {
@@ -147,6 +148,23 @@ a {
 		top: 0;
 		width: 75%;
 		left: @thumbnailWidth + @contentOffset + 5px;
+	}
+	.thumbnail-after {
+		.thumbnail {
+			img {
+				border: 1px solid @grayLight;
+				width: @thumbnailWidth;
+			}
+			position: relative;
+			float: right;
+		}
+		.description {
+			position:relative;
+			display: inline-block;
+			top: 10px;
+			left: 0;
+			width: 75%;
+		}
 	}
 	.class-name {
 		font-weight: bold;
@@ -242,6 +260,14 @@ footer {
 		}
 		.thumbnail img {
 			height: auto;
+		}
+		.thumbnail-after {
+			.thumbnail {
+				float: left;
+				img {
+					margin-top: 30px;
+				}
+			}
 		}
 		.description {
 			position: initial;
