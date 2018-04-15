@@ -284,10 +284,10 @@
 				</section>
   				<section class="thumbnail-after">
 					<div class="description">
-						<p>Currently, I'm employed at an innovative marketing &amp; technology company developing software for the higher education industry.</p>
+						<p>Currently, I'm developing a variety of modern web applications at <a href="https://tighten.co" title="Tighten" target="_blank" rel="noopener noreferrer">Tighten</a> where I get to sharpen my Laravel, English grammar, and empathetic communication skills on a daily basis.</p>
 						<p>When I'm not programming I enjoy playing with my beagle mix Sudo, reading about programming, singing a cappella, playing video games, and drinking copious amounts of coffee.</p>
 					</div>
-					<div class="thumbnail"><img id="sudo" src="assets/img/sudo.jpg" alt="Sudo practicing puppy-dog eyes"></div>
+					<div class="thumbnail"><img id="sudo" src="assets/img/sudo.jpg" alt="Sudo practicing her puppy-dog eyes"></div>
 				</section>
 			</div>
 
