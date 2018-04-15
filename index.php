@@ -257,8 +257,6 @@
 					<ul class="inline-list styled-links">
 						<li>PHP</li>
 						<li>Laravel</li>
-						<li>CodeIgniter</li>
-						<li>Magento</li>
 						<li>HTML</li>
 						<li>CSS</li>
 						<li>JavaScript</li>
@@ -268,14 +266,15 @@
 						<li>MySQL</li>
 						<li>MongoDB</li>
 						<li>API Development</li>
+						<li>Test-Driven Development</li>
 						<li>Git</li>
-						<li>SVN</li>
 						<li>Bash</li>
 						<li>Amazon Web Services</li>
 						<li>Server Administration</li>
 					</ul>
 				</section>
 			</div>
+
 			<div class="page" id="about">
 				<h2>About Me</h2>
 				<section>
