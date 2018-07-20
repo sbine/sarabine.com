@@ -279,7 +279,7 @@
 					<div class="thumbnail"><img id="me" src="assets/img/me.png" alt="Me celebrating the conclusion of the GRE!" /></div>
 					<div class="description">
 						<p>I'm a University of Denver alumna with a Bachelor's degree in Computer Science and a focus in Digital Media. I have a strong background in web development and game programming, and particularly enjoy learning and leveraging the latest web technologies.</p>
-						<p>I discovered my love for computers through Internet Relay Chat, which led me to my <a href="http://www.ikick.eu" title="iKick.eu" target="_blank" rel="noopener noreferrer">first coding project</a> spanning 4 years and containing over 10,000 lines of code.</p>
+						<p>I discovered my love for computers through Internet Relay Chat, which led me to my <a href="https://web.archive.org/web/20170130082539/http://www.ikick.eu/" title="iKick.eu" target="_blank" rel="noopener noreferrer">first coding project</a> spanning 4 years and containing over 10,000 lines of code.</p>
 					</div>
 				</section>
   				<section class="thumbnail-after">
