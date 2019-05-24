@@ -35,7 +35,7 @@
 	<div id="container">
 		<div id="content">
 			<div id="synopsis">
-				<p>I'm a Denver-based Web Developer with a <a class="cursive" href="#about">passion</a> for cutting-edge technology.</p>
+				<p>I'm a Software Developer in San Jose, CA with a <a class="cursive" href="#about">passion</a> for cutting-edge web technology.</p>
 				<p>Like what you see? Email me at <a class="email" title="Email me"></a></p>
 			</div>
 
@@ -258,15 +258,14 @@
 						<li>HTML</li>
 						<li>CSS</li>
 						<li>JavaScript</li>
-						<li>jQuery</li>
-						<li>Bootstrap</li>
-						<li>Responsive Design</li>
+						<li>VueJS</li>
+						<li>NativeScript (Vue)</li>
 						<li>MySQL</li>
-						<li>MongoDB</li>
-						<li>API Development</li>
-						<li>Test-Driven Development</li>
+						<li>TailwindCSS</li>
 						<li>Git</li>
 						<li>Bash</li>
+						<li>API Development</li>
+						<li>Test-Driven Development</li>
 						<li>Amazon Web Services</li>
 						<li>Server Administration</li>
 					</ul>
@@ -284,7 +283,7 @@
 				</section>
   				<section class="thumbnail-after">
 					<div class="description">
-						<p>Currently, I'm developing a variety of modern web applications at <a href="https://tighten.co" title="Tighten" target="_blank" rel="noopener noreferrer">Tighten</a> where I get to sharpen my Laravel, English grammar, and empathetic communication skills on a daily basis.</p>
+						<p>Currently, I'm a Lead Developer on a lively fully-distributed team at <a href="https://tighten.co" title="Tighten" target="_blank" rel="noopener noreferrer">Tighten</a>. I spend my days developing a variety of modern web and mobile applications using tools like Laravel, VueJS, and NativeScript.</p>
 						<p>When I'm not programming I enjoy playing with my beagle mix Sudo, reading about programming, singing a cappella, playing video games, and drinking copious amounts of coffee.</p>
 					</div>
 					<div class="thumbnail"><img id="sudo" src="assets/img/sudo.jpg" alt="Sudo practicing her puppy-dog eyes"></div>
