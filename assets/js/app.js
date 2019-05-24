@@ -9,3 +9,11 @@ for (var i = 0; i < emailElements.length; i++) {
     item.href = 'mailto:' + email;
 }
 
+var dateElements = document.getElementsByClassName('year');
+var year = new Date().getFullYear();
+for (var i = 0; i < dateElements.length; i++) {
+    item = dateElements[i];
+    if (item.innerHTML.length === 0) {
+        item.innerHTML = item.innerHTML + year
+    }
+}
