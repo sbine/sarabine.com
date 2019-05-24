@@ -1,368 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Sara Bine</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="I am a Web Developer with a love for new technology, web application and site development, mobile programming, and game programming.">
-	<meta name="keywords" content="sara,bine,web,site,developer,development,game,mobile,programming,programmer">
-	<meta name="author" content="Sara Bine">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-	<link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400italic" rel="stylesheet" type="text/css">
-	<!--[if lte IE 8]>
-		<script src="assets/js/html5shiv.min.js" type="text/javascript"></script>
-	<![endif]-->
-	<link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
+    <title>Sara Bine</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="I am a Web Developer with a love for new technology, web application and site development, mobile programming, and game programming.">
+    <meta name="keywords" content="sara,bine,web,site,developer,development,game,mobile,programming,programmer">
+    <meta name="author" content="Sara Bine">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="//fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400italic" rel="stylesheet" type="text/css">
+    <!--[if lte IE 8]>
+        <script src="assets/js/html5shiv.min.js" type="text/javascript"></script>
+    <![endif]-->
+    <link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	<div id="header" title="Photo: 'Sinking Sun' by Kevin Dinkel">
-		<!--
-			Photo: "Sinking Sun" by Kevin Dinkel (unaltered)
-			Source: https://www.flickr.com/photos/121776594@N07/14273784092/
-			License: https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode
-		-->
-		<div id="header-content">
-			<h1 id="logo">Sara Bine</h1>
-			<div class="social">
-				<a href="https://linkedin.com/in/sarabine" title="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="assets/img/linkedin.png" alt="Contact me on LinkedIn"></a>
-				<a href="https://twitter.com/sara_bine" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="assets/img/twitter.png" alt="Contact me on Twitter"></a>
-				<a href="https://github.com/sbine" title="GitHub" target="_blank" rel="noopener noreferrer"><img src="assets/img/github.png" alt="View my GitHub"></a>
-				<a class="email" title="Email"><img src="assets/img/email.png" alt="Email me"></a>
-			</div>
-		</div>
-	</div>
-	<div id="container">
-		<div id="content">
-			<div id="synopsis">
-				<p>I'm a Software Developer in San Jose, CA with a <a class="cursive" href="#about">passion</a> for cutting-edge web technology.</p>
-				<p>Like what you see? Email me at <a class="email" title="Email me"></a></p>
-			</div>
+    <div id="header" title="Photo: 'Sinking Sun' by Kevin Dinkel">
+        <!--
+            Photo: "Sinking Sun" by Kevin Dinkel (unaltered)
+            Source: https://www.flickr.com/photos/121776594@N07/14273784092/
+            License: https://creativecommons.org/licenses/by-nc-nd/2.0/legalcode
+        -->
+        <div id="header-content">
+            <h1 id="logo">Sara Bine</h1>
+            <div class="social">
+                <a href="https://linkedin.com/in/sarabine" title="LinkedIn" target="_blank" rel="noopener noreferrer"><img src="assets/img/linkedin.png" alt="Contact me on LinkedIn"></a>
+                <a href="https://twitter.com/sara_bine" title="Twitter" target="_blank" rel="noopener noreferrer"><img src="assets/img/twitter.png" alt="Contact me on Twitter"></a>
+                <a href="https://github.com/sbine" title="GitHub" target="_blank" rel="noopener noreferrer"><img src="assets/img/github.png" alt="View my GitHub"></a>
+                <a class="email" title="Email"><img src="assets/img/email.png" alt="Email me"></a>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        <div id="content">
+            <div id="synopsis">
+                <p>I'm a Software Developer in San Jose, CA with a <a class="cursive" href="#about">passion</a> for cutting-edge web technology.</p>
+                <p>Like what you see? Email me at <a class="email" title="Email me"></a></p>
+            </div>
 
-			<div class="page" id="work">
-				<h2>My Work</h2>
-				<section id="portfolio">
-					<article class="project">
-						<a class="thumbnail" href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/bdgt.png" alt="Bdgt" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="https://github.com/sbine/bdgt" title="View Bdgt on GitHub" target="_blank" rel="noopener noreferrer" class="github-link">
-									<img src="assets/img/github-mark.png" alt="View Source on GitHub">
-								</a>
-								<a href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank" rel="noopener noreferrer">Bdgt Finance</a>
-							</h3>
-							<p>I maintain a <a href="https://laravel.com/" title="Laravel" target="_blank" rel="noopener noreferrer">Laravel</a>-based financial planning app as a side project.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/sudoku.png" alt="ReactJS Sudoku" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="https://github.com/sbine/react-sudoku" title="View ReactJS Sudoku on GitHub" target="_blank" rel="noopener noreferrer" class="github-link">
-									<img src="assets/img/github-mark.png" alt="View Source on GitHub">
-								</a>
-								<a href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank" rel="noopener noreferrer">ReactJS Sudoku</a>
-							</h3>
-							<p>I created a self-validating Sudoku game in order to learn <a href="https://facebook.github.io/react/" title="React" target="_blank" rel="noopener noreferrer">ReactJS</a>.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="http://transactionalfunding.com" title="Transactional Funding" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/tf.png" alt="Transactional Funding" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="http://transactionalfunding.com" title="Transactional Funding" target="_blank" rel="noopener noreferrer">Transactional Funding</a>
-							</h3>
-							<p>I integrated a client's <a href="https://wordpress.org/" title="WordPress" target="_blank" rel="noopener noreferrer">WordPress</a> site with the <a href="https://recurly.com/" title="Recurly" target="_blank" rel="noopener noreferrer">Recurly</a> API via a custom plugin.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="https://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/bopitsmash.png" alt="Bop It! Smash" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="https://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank" rel="noopener noreferrer">Bop It! Smash</a>
-							</h3>
-							<p>I managed the data interchange behind iOS app Bop It! Smash with JSON, including user segmentation and in-app promotions.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="portfolio/consciouscreations" title="Conscious Creations Jewelry" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/cc.png" alt="Conscious Creations Jewelry" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="portfolio/consciouscreations" title="Conscious Creations Jewelry" target="_blank" rel="noopener noreferrer">Conscious Creations Jewelry</a>
-							</h3>
-							<p>I customized a website template for a freelance client.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="http://thedylanjones.com" title="Dylan Jones" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/thedylanjones.png" alt="Dylan Jones" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="http://thedylanjones.com" title="Dylan Jones" target="_blank" rel="noopener noreferrer">Dylan Jones</a>
-							</h3>
-							<p>I coded a personal portfolio website for a freelance client.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="https://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/ubz.png" alt="Ultimate Battle Zombies" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="https://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank" rel="noopener noreferrer">Ultimate Battle Zombies</a>
-							</h3>
-							<p>I was responsible for all data interchange behind iOS game Ultimate Battle Zombies and developed several mobile websites used in-app.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="https://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/mpz.png" alt="My Pet Zombie" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="https://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank" rel="noopener noreferrer">My Pet Zombie</a>
-							</h3>
-							<p>I worked on the backend for the My Pet Zombie in-app purchase store and was responsible for all data interchange with JSON.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="http://profilepicmaker.com" title="Profile Pic Maker" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/ppm.png" alt="Profile Pic Maker" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="http://profilepicmaker.com" title="Profile Pic Maker" target="_blank" rel="noopener noreferrer">Profile Pic Maker</a>
-							</h3>
-							<p>A profile picture uploader, editor and cropper capitalizing on Facebook's new layout. Written in PHP, JavaScript/jQuery, Ajax, and the PHP library <a href="https://www.imagemagick.org/script/index.php" title="ImageMagick" target="_blank" rel="noopener noreferrer">ImageMagick</a>.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="portfolio/BombBreak/" title="Bomb Break" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/BombBreak/BombBreak.png" alt="Bomb Break" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="portfolio/BombBreak/" title="Bomb Break" target="_blank" rel="noopener noreferrer">Bomb Break</a>
-							</h3>
-							<p>An experiment using the <a href="https://en.wikipedia.org/wiki/Stroop_effect" title="Stroop Effect" target="_blank" rel="noopener noreferrer">Stroop Effect</a> as a game mechanic, featuring an in-depth story line alongside fast-paced gameplay. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank" rel="noopener noreferrer">ActionScript 3.0</a>.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="portfolio/twitter/" title="Twitter Aggregator" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/twitter.png" alt="Twitter Aggregator" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="portfolio/twitter/" title="Twitter Aggregator" target="_blank" rel="noopener noreferrer">Twitter Aggregator</a>
-							</h3>
-							<p>A Twitter feed aggregator that measures and visualizes word frequency in real-time tweets. Written in PHP and <a href="https://www.processing.org/" title="Processing" target="_blank" rel="noopener noreferrer">Processing</a>.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="portfolio/Breakout/" title="Breakout" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/Breakout.png" alt="Breakout" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="portfolio/Breakout/" title="Breakout" target="_blank" rel="noopener noreferrer">Breakout</a>
-							</h3>
-							<p>An implementation of the classic game Breakout. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank" rel="noopener noreferrer">ActionScript 3.0</a>.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="http://gresss.com" title="GRESSS" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/gresss.png" alt="GRESSS" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="http://gresss.com" title="GRESSS" target="_blank" rel="noopener noreferrer">GRESSS Website</a>
-							</h3>
-							<p>I designed and coded a simple website for a freelance client.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="portfolio/Cellpocalypse/" title="Cellpocalypse" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/Cellpocalypse.png" alt="Cellpocalypse" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="portfolio/Cellpocalypse/" title="Cellpocalypse" target="_blank" rel="noopener noreferrer">Cellpocalypse</a>
-							</h3>
-							<p>A weekend prototype exploring the needs of cooperative play: two players must work together to protect a cell from incoming viruses. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank" rel="noopener noreferrer">ActionScript 3.0</a>.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="portfolio/MiniMania/" title="Mini Mania" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/MiniMania.png" alt="Mini Mania" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="portfolio/MiniMania/" title="Mini Mania" target="_blank" rel="noopener noreferrer">Mini Mania</a>
-							</h3>
-							<p>A final project illustrating the difference between a game and a 'toy'. Randomly generated tracks provide the player with an infinite number of new obstacles! Uses 2D game physics and a <a href="https://code.google.com/archive/p/collisiondetectionkit/" title="Collision Detection Kit" target="_blank" rel="noopener noreferrer">pixel-perfect collision detection library</a>.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="portfolio/BigMack/" title="Big Mack Attack" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/BigMack.png" alt="Big Mack Attack" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="portfolio/BigMack/" title="Big Mack Attack" target="_blank" rel="noopener noreferrer">Big Mack Attack</a>
-							</h3>
-							<p>An exercise in raising awareness of a social issue through a game. One player navigates through each floor of a fast-food company's headquarters in order to save the city from obesity.</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="portfolio/Greeps/" title="Greeps" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/Greeps.png" alt="Greeps" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="portfolio/Greeps/" title="Greeps" target="_blank" rel="noopener noreferrer">Greeps Contest Entry - 2nd Place Winner</a>
-							</h3>
-							<p>My submission to DU's <a href="http://www.greenfoot.org/competition/greeps/index.html" title="Greenfoot Greeps Contest" target="_blank" rel="noopener noreferrer">Greenfoot Greeps Contest</a>. The goal was to collect the most tomatoes by modifying ONLY the greeps' behavior (no extra memory allocation permitted).</p>
-						</div>
-					</article>
-					<article class="project">
-						<a class="thumbnail" href="portfolio/SpaceFighter/" title="Space Fighter" target="_blank" rel="noopener noreferrer">
-							<img src="portfolio/SpaceFighter.png" alt="Space Fighter" />
-						</a>
-						<div class="description">
-							<h3>
-								<a href="portfolio/SpaceFighter/" title="Space Fighter" target="_blank" rel="noopener noreferrer">Space Fighter</a>
-							</h3>
-							<p>My first Java project, originally created in <a href="http://www.greenfoot.org/" title="Greenfoot" target="_blank" rel="noopener noreferrer">Greenfoot</a> and rewritten in <a href="https://www.processing.org" title="Processing" target="_blank" rel="noopener noreferrer">Processing</a>. Maneuver through increasingly cluttered, randomly-generated asteroids to get a highscore.</p>
-						</div>
-					</article>
-				</section>
-			</div>
+            <div class="page" id="work">
+                <h2>My Work</h2>
+                <section id="portfolio">
+                    <article class="project">
+                        <a class="thumbnail" href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/bdgt.png" alt="Bdgt" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="https://github.com/sbine/bdgt" title="View Bdgt on GitHub" target="_blank" rel="noopener noreferrer" class="github-link">
+                                    <img src="assets/img/github-mark.png" alt="View Source on GitHub">
+                                </a>
+                                <a href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank" rel="noopener noreferrer">Bdgt Finance</a>
+                            </h3>
+                            <p>I maintain a <a href="https://laravel.com/" title="Laravel" target="_blank" rel="noopener noreferrer">Laravel</a>-based financial planning app as a side project.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/sudoku.png" alt="ReactJS Sudoku" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="https://github.com/sbine/react-sudoku" title="View ReactJS Sudoku on GitHub" target="_blank" rel="noopener noreferrer" class="github-link">
+                                    <img src="assets/img/github-mark.png" alt="View Source on GitHub">
+                                </a>
+                                <a href="portfolio/sudoku/" title="ReactJS Sudoku" target="_blank" rel="noopener noreferrer">ReactJS Sudoku</a>
+                            </h3>
+                            <p>I created a self-validating Sudoku game in order to learn <a href="https://facebook.github.io/react/" title="React" target="_blank" rel="noopener noreferrer">ReactJS</a>.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="http://transactionalfunding.com" title="Transactional Funding" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/tf.png" alt="Transactional Funding" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="http://transactionalfunding.com" title="Transactional Funding" target="_blank" rel="noopener noreferrer">Transactional Funding</a>
+                            </h3>
+                            <p>I integrated a client's <a href="https://wordpress.org/" title="WordPress" target="_blank" rel="noopener noreferrer">WordPress</a> site with the <a href="https://recurly.com/" title="Recurly" target="_blank" rel="noopener noreferrer">Recurly</a> API via a custom plugin.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="https://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/bopitsmash.png" alt="Bop It! Smash" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="https://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank" rel="noopener noreferrer">Bop It! Smash</a>
+                            </h3>
+                            <p>I managed the data interchange behind iOS app Bop It! Smash with JSON, including user segmentation and in-app promotions.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="portfolio/consciouscreations" title="Conscious Creations Jewelry" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/cc.png" alt="Conscious Creations Jewelry" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="portfolio/consciouscreations" title="Conscious Creations Jewelry" target="_blank" rel="noopener noreferrer">Conscious Creations Jewelry</a>
+                            </h3>
+                            <p>I customized a website template for a freelance client.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="http://thedylanjones.com" title="Dylan Jones" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/thedylanjones.png" alt="Dylan Jones" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="http://thedylanjones.com" title="Dylan Jones" target="_blank" rel="noopener noreferrer">Dylan Jones</a>
+                            </h3>
+                            <p>I coded a personal portfolio website for a freelance client.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="https://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/ubz.png" alt="Ultimate Battle Zombies" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="https://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank" rel="noopener noreferrer">Ultimate Battle Zombies</a>
+                            </h3>
+                            <p>I was responsible for all data interchange behind iOS game Ultimate Battle Zombies and developed several mobile websites used in-app.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="https://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/mpz.png" alt="My Pet Zombie" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="https://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank" rel="noopener noreferrer">My Pet Zombie</a>
+                            </h3>
+                            <p>I worked on the backend for the My Pet Zombie in-app purchase store and was responsible for all data interchange with JSON.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="http://profilepicmaker.com" title="Profile Pic Maker" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/ppm.png" alt="Profile Pic Maker" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="http://profilepicmaker.com" title="Profile Pic Maker" target="_blank" rel="noopener noreferrer">Profile Pic Maker</a>
+                            </h3>
+                            <p>A profile picture uploader, editor and cropper capitalizing on Facebook's new layout. Written in PHP, JavaScript/jQuery, Ajax, and the PHP library <a href="https://www.imagemagick.org/script/index.php" title="ImageMagick" target="_blank" rel="noopener noreferrer">ImageMagick</a>.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="portfolio/BombBreak/" title="Bomb Break" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/BombBreak/BombBreak.png" alt="Bomb Break" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="portfolio/BombBreak/" title="Bomb Break" target="_blank" rel="noopener noreferrer">Bomb Break</a>
+                            </h3>
+                            <p>An experiment using the <a href="https://en.wikipedia.org/wiki/Stroop_effect" title="Stroop Effect" target="_blank" rel="noopener noreferrer">Stroop Effect</a> as a game mechanic, featuring an in-depth story line alongside fast-paced gameplay. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank" rel="noopener noreferrer">ActionScript 3.0</a>.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="portfolio/twitter/" title="Twitter Aggregator" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/twitter.png" alt="Twitter Aggregator" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="portfolio/twitter/" title="Twitter Aggregator" target="_blank" rel="noopener noreferrer">Twitter Aggregator</a>
+                            </h3>
+                            <p>A Twitter feed aggregator that measures and visualizes word frequency in real-time tweets. Written in PHP and <a href="https://www.processing.org/" title="Processing" target="_blank" rel="noopener noreferrer">Processing</a>.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="portfolio/Breakout/" title="Breakout" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/Breakout.png" alt="Breakout" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="portfolio/Breakout/" title="Breakout" target="_blank" rel="noopener noreferrer">Breakout</a>
+                            </h3>
+                            <p>An implementation of the classic game Breakout. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank" rel="noopener noreferrer">ActionScript 3.0</a>.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="http://gresss.com" title="GRESSS" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/gresss.png" alt="GRESSS" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="http://gresss.com" title="GRESSS" target="_blank" rel="noopener noreferrer">GRESSS Website</a>
+                            </h3>
+                            <p>I designed and coded a simple website for a freelance client.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="portfolio/Cellpocalypse/" title="Cellpocalypse" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/Cellpocalypse.png" alt="Cellpocalypse" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="portfolio/Cellpocalypse/" title="Cellpocalypse" target="_blank" rel="noopener noreferrer">Cellpocalypse</a>
+                            </h3>
+                            <p>A weekend prototype exploring the needs of cooperative play: two players must work together to protect a cell from incoming viruses. Written in <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="_blank" rel="noopener noreferrer">ActionScript 3.0</a>.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="portfolio/MiniMania/" title="Mini Mania" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/MiniMania.png" alt="Mini Mania" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="portfolio/MiniMania/" title="Mini Mania" target="_blank" rel="noopener noreferrer">Mini Mania</a>
+                            </h3>
+                            <p>A final project illustrating the difference between a game and a 'toy'. Randomly generated tracks provide the player with an infinite number of new obstacles! Uses 2D game physics and a <a href="https://code.google.com/archive/p/collisiondetectionkit/" title="Collision Detection Kit" target="_blank" rel="noopener noreferrer">pixel-perfect collision detection library</a>.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="portfolio/BigMack/" title="Big Mack Attack" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/BigMack.png" alt="Big Mack Attack" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="portfolio/BigMack/" title="Big Mack Attack" target="_blank" rel="noopener noreferrer">Big Mack Attack</a>
+                            </h3>
+                            <p>An exercise in raising awareness of a social issue through a game. One player navigates through each floor of a fast-food company's headquarters in order to save the city from obesity.</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="portfolio/Greeps/" title="Greeps" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/Greeps.png" alt="Greeps" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="portfolio/Greeps/" title="Greeps" target="_blank" rel="noopener noreferrer">Greeps Contest Entry - 2nd Place Winner</a>
+                            </h3>
+                            <p>My submission to DU's <a href="http://www.greenfoot.org/competition/greeps/index.html" title="Greenfoot Greeps Contest" target="_blank" rel="noopener noreferrer">Greenfoot Greeps Contest</a>. The goal was to collect the most tomatoes by modifying ONLY the greeps' behavior (no extra memory allocation permitted).</p>
+                        </div>
+                    </article>
+                    <article class="project">
+                        <a class="thumbnail" href="portfolio/SpaceFighter/" title="Space Fighter" target="_blank" rel="noopener noreferrer">
+                            <img src="portfolio/SpaceFighter.png" alt="Space Fighter" />
+                        </a>
+                        <div class="description">
+                            <h3>
+                                <a href="portfolio/SpaceFighter/" title="Space Fighter" target="_blank" rel="noopener noreferrer">Space Fighter</a>
+                            </h3>
+                            <p>My first Java project, originally created in <a href="http://www.greenfoot.org/" title="Greenfoot" target="_blank" rel="noopener noreferrer">Greenfoot</a> and rewritten in <a href="https://www.processing.org" title="Processing" target="_blank" rel="noopener noreferrer">Processing</a>. Maneuver through increasingly cluttered, randomly-generated asteroids to get a highscore.</p>
+                        </div>
+                    </article>
+                </section>
+            </div>
 
-			<div class="page" id="skills">
-				<h2>Skills</h2>
-				<section>
-					<ul class="inline-list styled-links">
-						<li>PHP</li>
-						<li>Laravel</li>
-						<li>HTML</li>
-						<li>CSS</li>
-						<li>JavaScript</li>
-						<li>VueJS</li>
-						<li>NativeScript (Vue)</li>
-						<li>MySQL</li>
-						<li>TailwindCSS</li>
-						<li>Git</li>
-						<li>Bash</li>
-						<li>API Development</li>
-						<li>Test-Driven Development</li>
-						<li>Amazon Web Services</li>
-						<li>Server Administration</li>
-					</ul>
-				</section>
-			</div>
+            <div class="page" id="skills">
+                <h2>Skills</h2>
+                <section>
+                    <ul class="inline-list styled-links">
+                        <li>PHP</li>
+                        <li>Laravel</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>VueJS</li>
+                        <li>NativeScript (Vue)</li>
+                        <li>MySQL</li>
+                        <li>TailwindCSS</li>
+                        <li>Git</li>
+                        <li>Bash</li>
+                        <li>API Development</li>
+                        <li>Test-Driven Development</li>
+                        <li>Amazon Web Services</li>
+                        <li>Server Administration</li>
+                    </ul>
+                </section>
+            </div>
 
-			<div class="page" id="about">
-				<h2>About Me</h2>
-				<section>
-					<div class="thumbnail"><img id="me" src="assets/img/me.png" alt="Me celebrating the conclusion of the GRE!" /></div>
-					<div class="description">
-						<p>I'm a University of Denver alumna with a Bachelor's degree in Computer Science and a focus in Digital Media. I have a strong background in web development and game programming, and particularly enjoy learning and leveraging the latest web technologies.</p>
-						<p>I discovered my love for computers through Internet Relay Chat, which led me to my <a href="https://web.archive.org/web/20170130082539/http://www.ikick.eu/" title="iKick.eu" target="_blank" rel="noopener noreferrer">first coding project</a> spanning 4 years and containing over 10,000 lines of code.</p>
-					</div>
-				</section>
-  				<section class="thumbnail-after">
-					<div class="description">
-						<p>Currently, I'm a Lead Developer on a lively fully-distributed team at <a href="https://tighten.co" title="Tighten" target="_blank" rel="noopener noreferrer">Tighten</a>. I spend my days developing a variety of modern web and mobile applications using tools like Laravel, VueJS, and NativeScript.</p>
-						<p>When I'm not programming I enjoy playing with my beagle mix Sudo, reading about programming, singing a cappella, playing video games, and drinking copious amounts of coffee.</p>
-					</div>
-					<div class="thumbnail"><img id="sudo" src="assets/img/sudo.jpg" alt="Sudo practicing her puppy-dog eyes"></div>
-				</section>
-			</div>
+            <div class="page" id="about">
+                <h2>About Me</h2>
+                <section>
+                    <div class="thumbnail"><img id="me" src="assets/img/me.png" alt="Me celebrating the conclusion of the GRE!" /></div>
+                    <div class="description">
+                        <p>I'm a University of Denver alumna with a Bachelor's degree in Computer Science and a focus in Digital Media. I have a strong background in web development and game programming, and particularly enjoy learning and leveraging the latest web technologies.</p>
+                        <p>I discovered my love for computers through Internet Relay Chat, which led me to my <a href="https://web.archive.org/web/20170130082539/http://www.ikick.eu/" title="iKick.eu" target="_blank" rel="noopener noreferrer">first coding project</a> spanning 4 years and containing over 10,000 lines of code.</p>
+                    </div>
+                </section>
+                  <section class="thumbnail-after">
+                    <div class="description">
+                        <p>Currently, I'm a Lead Developer on a lively fully-distributed team at <a href="https://tighten.co" title="Tighten" target="_blank" rel="noopener noreferrer">Tighten</a>. I spend my days developing a variety of modern web and mobile applications using tools like Laravel, VueJS, and NativeScript.</p>
+                        <p>When I'm not programming I enjoy playing with my beagle mix Sudo, reading about programming, singing a cappella, playing video games, and drinking copious amounts of coffee.</p>
+                    </div>
+                    <div class="thumbnail"><img id="sudo" src="assets/img/sudo.jpg" alt="Sudo practicing her puppy-dog eyes"></div>
+                </section>
+            </div>
 
-			<!--
-				Hey! I see you found this page I scrapped. Enjoy!
-			-->
-			<!--
-			<div class="page" id="education">
-				<h2>Education</h2>
-				<h3>Computer Science</h3>
-				<ul>
-					<li><span class="class-name">Java I</span></li>
-					<li><span class="class-name">Java II</span></li>
-					<li><span class="class-name">Java III</span></li>
-					<li><span class="class-name">Discrete Structures</span> &nbsp;// Computer Science-related math</li>
-					<li><span class="class-name">Data Structures and Algorithms</span> &nbsp;// Algorithm optimization</li>
-					<li><span class="class-name">Computer Organization</span> &nbsp;// Assembly analysis</li>
-					<li><span class="class-name">Computing and Society</span> &nbsp;// Effects of technology on society</li>
-					<li><span class="class-name">Systems Programming</span> &nbsp;// C and C++</li>
-					<li><span class="class-name">Operating Systems</span> &nbsp;// C, <a href="http://www.pintool.org/" title="pin tool" target="new">pin tool</a>, <a href="http://www.gnuplot.info/" title="gnuplot" target="new">gnuplot</a></li>
-					<li><span class="class-name">Software Tools</span> &nbsp;// shell scripting: bash, awk, sed, <a href="https://www.perl.org/" title="perl" target="new">perl</a>, <a href="https://www.python.org/" title="python" target="new">python</a>, <a href="https://php.net/" title="PHP" target="new">PHP</a>, <a href="https://www.latex-project.org/" title="LaTeX" target="new">LaTeX</a></li>
-					<li><span class="class-name">Introduction to iPhone Programming</span> &nbsp;// Objective C, <a href="http://www.gnustep.org/" title="GNUstep" target="new">GNUstep</a></li>
-					<li><span class="class-name">Introduction to Game Design</span> &nbsp;// <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="new">ActionScript 3.0</a></li>
-					<li><span class="class-name">Database Organization &amp; Management</span> &nbsp;// Database optimization, <a href="https://www.oracle.com/database/index.html" title="Oracle" target="new">Oracle</a></li>
-					<li><span class="class-name">iPhone Game Development</span> &nbsp;// Objective C, <a href="http://www.openframeworks.cc/" title="openFrameworks" target="new">openFrameworks</a></li>
-					<li><span class="class-name">Game Programming I</span> &nbsp;// C#, <a href="https://msdn.microsoft.com/en-us/library/bb200104.aspx" title="XNA" target="new">XNA</a></li>
-					<li><span class="class-name">Software Engineering</span> &nbsp;// Software development theory</li>
-					<li><span class="class-name">Secure Software</span> &nbsp;// Security vulnerability awareness and prevention</li>
-					<li><span class="class-name">Computer Forensics</span> &nbsp;// Forensical analysis, methods, and tools</li>
-				</ul>
-				<h3>Digital Media Studies</h3>
-				<ul>
-					<li><span class="class-name">Website Design and Management</span> &nbsp;// Basic web design</li>
-					<li><span class="class-name">Technical Foundations in Digital Media</span> &nbsp;// <a href="https://processing.org/" title="Processing" target="new">Processing</a></li>
-					<li><span class="class-name">Programming for Play</span> &nbsp;// <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="new">ActionScript 3.0</a></li>
-					<li><span class="class-name">Web 2.0 Design &amp; Content Management</span> &nbsp;// User Experience Design</li>
-					<li><span class="class-name">Introduction to 3D Modeling</span> &nbsp;// <a href="http://usa.autodesk.com/adsk/servlet/pc/index?siteID=123112&amp;id=13577897" title="Autodesk Maya" target="new">Autodesk Maya</a></li>
-					<li><span class="class-name">Introduction to Electronic Media Art and Design</span> &nbsp;// New Media Art</li>
-				</ul>
-			</div>
-			-->
+            <!--
+                Hey! I see you found this page I scrapped. Enjoy!
+            -->
+            <!--
+            <div class="page" id="education">
+                <h2>Education</h2>
+                <h3>Computer Science</h3>
+                <ul>
+                    <li><span class="class-name">Java I</span></li>
+                    <li><span class="class-name">Java II</span></li>
+                    <li><span class="class-name">Java III</span></li>
+                    <li><span class="class-name">Discrete Structures</span> &nbsp;// Computer Science-related math</li>
+                    <li><span class="class-name">Data Structures and Algorithms</span> &nbsp;// Algorithm optimization</li>
+                    <li><span class="class-name">Computer Organization</span> &nbsp;// Assembly analysis</li>
+                    <li><span class="class-name">Computing and Society</span> &nbsp;// Effects of technology on society</li>
+                    <li><span class="class-name">Systems Programming</span> &nbsp;// C and C++</li>
+                    <li><span class="class-name">Operating Systems</span> &nbsp;// C, <a href="http://www.pintool.org/" title="pin tool" target="new">pin tool</a>, <a href="http://www.gnuplot.info/" title="gnuplot" target="new">gnuplot</a></li>
+                    <li><span class="class-name">Software Tools</span> &nbsp;// shell scripting: bash, awk, sed, <a href="https://www.perl.org/" title="perl" target="new">perl</a>, <a href="https://www.python.org/" title="python" target="new">python</a>, <a href="https://php.net/" title="PHP" target="new">PHP</a>, <a href="https://www.latex-project.org/" title="LaTeX" target="new">LaTeX</a></li>
+                    <li><span class="class-name">Introduction to iPhone Programming</span> &nbsp;// Objective C, <a href="http://www.gnustep.org/" title="GNUstep" target="new">GNUstep</a></li>
+                    <li><span class="class-name">Introduction to Game Design</span> &nbsp;// <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="new">ActionScript 3.0</a></li>
+                    <li><span class="class-name">Database Organization &amp; Management</span> &nbsp;// Database optimization, <a href="https://www.oracle.com/database/index.html" title="Oracle" target="new">Oracle</a></li>
+                    <li><span class="class-name">iPhone Game Development</span> &nbsp;// Objective C, <a href="http://www.openframeworks.cc/" title="openFrameworks" target="new">openFrameworks</a></li>
+                    <li><span class="class-name">Game Programming I</span> &nbsp;// C#, <a href="https://msdn.microsoft.com/en-us/library/bb200104.aspx" title="XNA" target="new">XNA</a></li>
+                    <li><span class="class-name">Software Engineering</span> &nbsp;// Software development theory</li>
+                    <li><span class="class-name">Secure Software</span> &nbsp;// Security vulnerability awareness and prevention</li>
+                    <li><span class="class-name">Computer Forensics</span> &nbsp;// Forensical analysis, methods, and tools</li>
+                </ul>
+                <h3>Digital Media Studies</h3>
+                <ul>
+                    <li><span class="class-name">Website Design and Management</span> &nbsp;// Basic web design</li>
+                    <li><span class="class-name">Technical Foundations in Digital Media</span> &nbsp;// <a href="https://processing.org/" title="Processing" target="new">Processing</a></li>
+                    <li><span class="class-name">Programming for Play</span> &nbsp;// <a href="http://www.actionscript.org/" title="ActionScript 3.0" target="new">ActionScript 3.0</a></li>
+                    <li><span class="class-name">Web 2.0 Design &amp; Content Management</span> &nbsp;// User Experience Design</li>
+                    <li><span class="class-name">Introduction to 3D Modeling</span> &nbsp;// <a href="http://usa.autodesk.com/adsk/servlet/pc/index?siteID=123112&amp;id=13577897" title="Autodesk Maya" target="new">Autodesk Maya</a></li>
+                    <li><span class="class-name">Introduction to Electronic Media Art and Design</span> &nbsp;// New Media Art</li>
+                </ul>
+            </div>
+            -->
 
-			<div class="page" id="contact">
-				<h2>Contact</h2>
-				<ul class="tiled-list">
-					<li>
-						<a href="https://www.linkedin.com/in/sarabine" title="Contact me on LinkedIn" target="_blank" rel="noopener noreferrer">
-							<img src="assets/img/linkedin.png" alt="Contact me on LinkedIn">
-							LinkedIn
-						</a>
-					</li>
-					<li>
-						<a href="https://twitter.com/sara_bine" title="Contact me on Twitter" target="_blank" rel="noopener noreferrer">
-							<img src="assets/img/twitter.png" alt="Contact me on Twitter">
-							Twitter
-						</a>
-					</li>
-					<li>
-						<a href="https://github.com/sbine" title="View my GitHub" target="_blank" rel="noopener noreferrer">
-							<img src="assets/img/github.png" alt="View my GitHub">
-							GitHub
-						</a>
-					</li>
-					<li>
-						<a class="email" title="Email me">
-							<img src="assets/img/email.png" alt="Email me">
-							Email
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<footer>
-		<p>&copy; <?php echo date('Y'); ?> Sara Bine</p>
-	</footer>
-	<script src="assets/js/app.min.js"></script>
+            <div class="page" id="contact">
+                <h2>Contact</h2>
+                <ul class="tiled-list">
+                    <li>
+                        <a href="https://www.linkedin.com/in/sarabine" title="Contact me on LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/linkedin.png" alt="Contact me on LinkedIn">
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/sara_bine" title="Contact me on Twitter" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/twitter.png" alt="Contact me on Twitter">
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/sbine" title="View my GitHub" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/img/github.png" alt="View my GitHub">
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a class="email" title="Email me">
+                            <img src="assets/img/email.png" alt="Email me">
+                            Email
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; <?php echo date('Y'); ?> Sara Bine</p>
+    </footer>
+    <script src="assets/js/app.min.js"></script>
 </body>
 </html>
