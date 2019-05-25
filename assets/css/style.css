@@ -1,0 +1,49 @@
+@tailwind base;
+
+@tailwind components;
+
+html {
+	box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+	border-width: 0;
+	border-style: solid;
+	border-color: theme('colors.gray.200');
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	background-color: transparent;
+	text-decoration: inherit;
+	color: theme('colors.red.600');
+}
+a:hover {
+	color: theme('colors.red.800');
+}
+
+#header {
+	background-image: url(../img/colorado-sinking-sun.jpg);
+	background-size: auto;
+	background-position: 50% 90%;
+}
+@screen xl {
+	#header {
+		background-size: 110%;
+		background-position: 50% 100%;
+	}
+}
+
+@tailwind utilities;

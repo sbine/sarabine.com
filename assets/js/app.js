@@ -14,6 +14,6 @@ var year = new Date().getFullYear();
 for (var i = 0; i < dateElements.length; i++) {
     item = dateElements[i];
     if (item.innerHTML.length === 0) {
-        item.innerHTML = item.innerHTML + year
+        item.innerHTML = item.innerHTML + year;
     }
 }
