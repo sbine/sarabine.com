@@ -6,6 +6,9 @@ mix
   .postCss('assets/css/style.css', 'assets/css/style.min.css', [
     require('tailwindcss'),
   ])
+  .options({
+      processCssUrls: false
+   })
 
 if (mix.inProduction()) {
   mix.webpackConfig({
