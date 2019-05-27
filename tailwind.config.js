@@ -18,8 +18,6 @@ module.exports = {
           linkedin: '#0077B5',
           twitter: '#1DA1F2',
         },
-        white: '#FFF',
-        black: '#000',
         gray: {
           ...colors.gray,
           '100': '#FAFAFA',
