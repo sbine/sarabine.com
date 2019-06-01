@@ -2,6 +2,24 @@
 
 @tailwind components;
 
+@font-face {
+    font-family: Lobster;
+	src: url('../font/Lobster.woff2') format('woff2'),
+		url('../font/Lobster.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+	src: url('../font/PlayfairDisplay-Regular.woff2') format('woff2'),
+		url('../font/PlayfairDisplay-Regular.woff') format('woff');
+}
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	src: url('../font/PlayfairDisplay-Italic.woff2') format('woff2'),
+		url('../font/PlayfairDisplay-Italic.woff') format('woff');
+}
+
 html {
 	box-sizing: border-box;
 }
