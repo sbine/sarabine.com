@@ -59,14 +59,13 @@ a:hover {
 }
 
 #header {
-	background-image: url(../img/colorado-sinking-sun.jpg);
+	background-image: url(../img/dawn-mountains.jpg);
 	background-size: auto;
-	background-position: 50% 90%;
+	background-position: 50% 42%;
 }
 @screen xl {
 	#header {
 		background-size: 110%;
-		background-position: 50% 100%;
 	}
 }
 
