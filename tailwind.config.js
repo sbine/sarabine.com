@@ -6,9 +6,18 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      heading: ['Lobster', 'serif'],
-      synopsis: ['Playfair Display', 'serif'],
-      body: ['Georgia', 'sans-serif'],
+      heading: ['BebasNeue', 'serif'],
+      body: [
+        'SourceSansPro',
+        '-apple-system',
+        'BlinkMacSystemFont',
+        '"Segoe UI"',
+        'Roboto',
+        '"Helvetica Neue"',
+        'Arial',
+        '"Noto Sans"',
+        'sans-serif',
+      ],
     },
     extend: {
       colors: {
@@ -33,7 +42,10 @@ module.exports = {
         }
       },
       fontSize: {
-        '3xl': '2rem',
+        'xl': '1.4rem',
+      },
+      lineHeight: {
+        relaxed: '1.565',
       },
       opacity: {
         '85': '0.85',
