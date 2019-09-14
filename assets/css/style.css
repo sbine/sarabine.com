@@ -4,15 +4,13 @@
 
 @font-face {
 	font-family: BebasNeue;
-	letter-spacing: 0.025em;
 	src: url('../font/BebasNeue-Regular.woff2') format('woff2'),
 		url('../font/BebasNeue-Regular.woff') format('woff');
 }
 @font-face {
 	font-family: SourceSansPro;
-	src: url('../font/SourceSansPro-It.woff2') format('woff2'),
-		url('../font/SourceSansPro-It.woff') format('woff');
-	font-style: italic;
+	src: url('../font/SourceSansPro-Regular.woff2') format('woff2'),
+		url('../font/SourceSansPro-Regular.woff') format('woff');
 }
 @font-face {
 	font-family: SourceSansPro;
@@ -22,8 +20,9 @@
 }
 @font-face {
 	font-family: SourceSansPro;
-	src: url('../font/SourceSansPro-Regular.woff2') format('woff2'),
-		url('../font/SourceSansPro-Regular.woff') format('woff');
+	font-style: italic;
+	src: url('../font/SourceSansPro-It.woff2') format('woff2'),
+		url('../font/SourceSansPro-It.woff') format('woff');
 }
 
 html {

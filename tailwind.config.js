@@ -44,14 +44,14 @@ module.exports = {
       fontSize: {
         'xl': '1.4rem',
       },
+      letterSpacing: {
+        wide: '0.02em',
+      },
       lineHeight: {
-        relaxed: '1.565',
+        relaxed: '1.58',
       },
       opacity: {
         '85': '0.85',
-      },
-      width: {
-        '128': '32rem',
       }
     }
   },
