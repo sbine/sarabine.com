@@ -1,7 +1,5 @@
 @tailwind base;
 
-@tailwind components;
-
 @font-face {
 	font-family: BebasNeue;
 	src: url('../font/BebasNeue-Regular.woff2') format('woff2'),
@@ -30,7 +28,7 @@ html {
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
-	margin: 0;
+	@apply m-0;
 }
 
 *,
@@ -43,18 +41,19 @@ body, h1, h2, h3, h4, h5, h6, p {
 }
 
 ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+	@apply list-none;
+	@apply m-0;
+	@apply p-0;
 }
 
 a {
+	@apply text-red-600;
+
 	background-color: transparent;
 	text-decoration: inherit;
-	color: theme('colors.red.600');
 }
 a:hover {
-	color: theme('colors.red.800');
+	@apply text-red-800;
 }
 
 #header {
@@ -67,5 +66,7 @@ a:hover {
 		background-size: 110%;
 	}
 }
+
+@tailwind components;
 
 @tailwind utilities;
