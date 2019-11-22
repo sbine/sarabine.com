@@ -47,9 +47,9 @@ ul {
 }
 
 a {
+	@apply bg-transparent;
 	@apply text-red-600;
 
-	background-color: transparent;
 	text-decoration: inherit;
 }
 a:hover {
