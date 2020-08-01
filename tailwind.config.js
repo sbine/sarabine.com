@@ -22,7 +22,7 @@ module.exports = {
     extend: {
       colors: {
         icon: {
-          email: '#E2A832',
+          email: '#F97840',
           github: '#181717',
           linkedin: '#0077B5',
           twitter: '#1DA1F2',
