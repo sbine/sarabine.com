@@ -4,10 +4,10 @@
   "author": "Sara Bine <sara@sarabine.com>",
   "private": true,
   "devDependencies": {
-    "laravel-mix": "^4.1.4",
-    "purgecss-webpack-plugin": "^1.6.0",
-    "tailwindcss": "^1.6.0",
-    "vue-template-compiler": "^2.6.11"
+    "browser-sync": "^2.26.12",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "laravel-mix": "^5.0.0",
+    "tailwindcss": "^1.6.0"
   },
   "scripts": {
     "dev": "npm run development",
