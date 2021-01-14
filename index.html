@@ -8,43 +8,54 @@
     <meta name="author" content="Sara Bine">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preload" href="assets/css/style.min.css" as="style">
+    <link rel="preload" href="assets/js/app.min.js" as="script">
+    <link rel="preload" href="assets/img/dawn-mountains.jpg" as="image">
+    <link rel="preload" href="assets/font/BebasNeue-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/font/SourceSansPro-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/font/SourceSansPro-Semibold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="assets/font/SourceSansPro-It.woff2" as="font" type="font/woff2" crossorigin>
     <link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
 </head>
 <body class="bg-gray-200 font-body leading-relaxed text-lg">
     <div class="w-full sticky top-0 z-50 bg-gray-200 border-t-2 border-red-700 shadow pb-1 pt-2">
-        <div class="container h-full flex items-center justify-between leading-tight sm:leading-relaxed mx-auto px-6 sm:px-12 md:px-18 xl:px-48">
+        <div class="container h-full flex items-center justify-between leading-tight sm:leading-relaxed mx-auto px-6 sm:px-12 xl:px-80">
             <h1 class="text-5xl text-red-700">Sara Bine</h1>
-            <div class="h-full w-24 sm:w-auto flex flex-shrink-0 flex-wrap sm:flex-no-wrap">
+            <div class="h-full w-24 sm:w-auto flex flex-shrink-0 flex-wrap sm:flex-nowrap">
                 <a href="https://linkedin.com/in/sarabine" title="LinkedIn" target="_blank" rel="noopener noreferrer" class="sm:opacity-85 hover:opacity-100 ml-2">
-                    <img class="w-10 bg-icon-linkedin rounded p-2" src="assets/img/linkedin.svg" alt="Contact me on LinkedIn">
+                    <img class="h-10 w-10 bg-icon-linkedin rounded p-2" src="assets/img/linkedin.svg" alt="Contact me on LinkedIn">
                 </a>
                 <a href="https://twitter.com/sara_bine" title="Twitter" target="_blank" rel="noopener noreferrer" class="sm:opacity-85 hover:opacity-100 ml-2">
-                    <img class="w-10 bg-icon-twitter rounded p-2" src="assets/img/twitter.svg" alt="Contact me on Twitter">
+                    <img class="h-10 w-10 bg-icon-twitter rounded p-2" src="assets/img/twitter.svg" alt="Contact me on Twitter">
                 </a>
                 <a href="https://github.com/sbine" title="GitHub" target="_blank" rel="noopener noreferrer" class="sm:opacity-85 hover:opacity-100 ml-2">
-                    <img class="w-10 bg-icon-github rounded p-2" src="assets/img/github.svg" alt="View my GitHub">
+                    <img class="h-10 w-10 bg-icon-github rounded p-2" src="assets/img/github.svg" alt="View my GitHub">
                 </a>
                 <a title="Email" class="email sm:opacity-85 hover:opacity-100 ml-2">
-                    <img class="w-10 bg-icon-email rounded p-2" src="assets/img/email.svg" alt="Email me">
+                    <img class="h-10 w-10 bg-icon-email rounded p-2" src="assets/img/email.svg" alt="Email me">
                 </a>
             </div>
         </div>
     </div>
 
     <div id="header" class="h-56 bg-no-repeat bg-black border-b border-black"></div>
-    <div class="container mx-auto px-6 sm:px-12 md:px-18 xl:px-48 mb-8 -mt-20">
+    <div class="container mx-auto px-6 sm:px-12 xl:px-80 mb-8 -mt-20">
         <div class="bg-gray-100 font-body shadow-md text-xl p-8 sm:p-12">
             <p>I'm a Senior Full-Stack Developer in Colorado who loves problem-solving, learning &amp; sharing knowledge, and effective communication.</p>
         </div>
     </div>
 
-    <div class="container mx-auto px-6 sm:px-12 md:px-18 xl:px-48">
+    <div class="container mx-auto px-6 sm:px-12 xl:px-80">
         <div class="py-10" id="work">
             <h2 class="text-4xl mb-6">My Work</h2>
             <section class="sm:flex sm:flex-wrap mx-1 sm:mx-6">
                 <article class="w-full sm:flex bg-white shadow mb-8 p-6 sm:p-8">
                     <a href="https://github.com/sbine/bdgt" title="Bdgt" target="_blank" rel="noopener noreferrer">
-                        <img class="border border-gray-300" src="portfolio/bdgt.png" alt="Bdgt" />
+                        <picture class="border border-gray-300">
+                            <source srcset="portfolio/bdgt.webp" type="image/webp">
+                            <source srcset="portfolio/bdgt.png" type="image/png">
+                            <img src="portfolio/bdgt.png" alt="Bdgt" />
+                        </picture>
                     </a>
                     <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                         <h3 class="flex mb-2">
@@ -60,7 +71,11 @@
                 </article>
                 <article class="sm:flex bg-white shadow mb-8 p-6 sm:p-8">
                     <a href="https://itunes.apple.com/us/app/bop-it-!-smash/id523662874?mt=8" title="Bop It! Smash" target="_blank" rel="noopener noreferrer">
-                        <img src="portfolio/bopitsmash.png" alt="Bop It! Smash" />
+                        <picture>
+                            <source srcset="portfolio/bopitsmash.webp" type="image/webp">
+                            <source srcset="portfolio/bopitsmash.png" type="image/png">
+                            <img src="portfolio/bopitsmash.png" alt="Bop It! Smash" />
+                        </picture>
                     </a>
                     <div class="w-full sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                         <h3 class="flex mb-2">
@@ -73,7 +88,11 @@
                 </article>
                 <article class="w-full sm:flex bg-white shadow mb-8 p-6 sm:p-8">
                     <a href="portfolio/BombBreak/" title="Bomb Break" target="_blank" rel="noopener noreferrer">
-                        <img class="border border-gray-300" src="portfolio/BombBreak/BombBreak.png" alt="Bomb Break" />
+                        <picture class="border border-gray-300">
+                            <source srcset="portfolio/BombBreak/BombBreak.webp" type="image/webp">
+                            <source srcset="portfolio/BombBreak/BombBreak.png" type="image/png">
+                            <img src="portfolio/BombBreak/BombBreak.png" alt="Bomb Break" />
+                        </picture>
                     </a>
                     <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                         <h3 class="flex mb-2">
@@ -84,7 +103,11 @@
                 </article>
                 <article class="w-full sm:flex bg-white shadow mb-8 p-6 sm:p-8">
                     <a href="portfolio/MiniMania/" title="Mini Mania" target="_blank" rel="noopener noreferrer">
-                        <img class="border border-gray-300" src="portfolio/MiniMania.png" alt="Mini Mania" />
+                        <picture class="border border-gray-300">
+                            <source srcset="portfolio/MiniMania.webp" type="image/webp">
+                            <source srcset="portfolio/MiniMania.png" type="image/png">
+                            <img src="portfolio/MiniMania.png" alt="Mini Mania" />
+                        </picture>
                     </a>
                     <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                         <h3 class="flex mb-2">
@@ -97,7 +120,11 @@
                 </article>
                 <article class="w-full sm:flex bg-white shadow mb-8 p-6 sm:p-8">
                     <a href="portfolio/SpaceFighter/" title="Space Fighter" target="_blank" rel="noopener noreferrer">
-                        <img class="border border-gray-300" src="portfolio/SpaceFighter.png" alt="Space Fighter" />
+                        <picture class="border border-gray-300">
+                            <source srcset="portfolio/SpaceFighter.webp" type="image/webp">
+                            <source srcset="portfolio/SpaceFighter.png" type="image/png">
+                            <img src="portfolio/SpaceFighter.png" alt="Space Fighter" />
+                        </picture>
                     </a>
                     <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                         <h3 class="flex mb-2">
@@ -114,7 +141,11 @@
 
                     <article class="sm:flex bg-white shadow mb-8 mt-8 p-6 sm:p-8">
                         <a href="https://itunes.apple.com/us/app/ultimate-battle-zombies/id480306077?mt=8" title="Ultimate Battle Zombies" target="_blank" rel="noopener noreferrer">
-                            <img src="portfolio/ubz.png" alt="Ultimate Battle Zombies" />
+                            <picture>
+                                <source srcset="portfolio/ubz.webp" type="image/webp">
+                                <source srcset="portfolio/ubz.png" type="image/png">
+                                <img src="portfolio/ubz.png" alt="Ultimate Battle Zombies" />
+                            </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                             <h3 class="flex mb-2">
@@ -127,7 +158,11 @@
                     </article>
                     <article class="sm:flex bg-white shadow mb-8 p-6 sm:p-8">
                         <a href="https://itunes.apple.com/us/app/my-pet-zombie/id424615076?mt=8" title="My Pet Zombie" target="_blank" rel="noopener noreferrer">
-                            <img src="portfolio/mpz.png" alt="My Pet Zombie" />
+                            <picture>
+                                <source srcset="portfolio/mpz.webp" type="image/webp">
+                                <source srcset="portfolio/mpz.png" type="image/png">
+                                <img src="portfolio/mpz.png" alt="My Pet Zombie" />
+                            </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                             <h3 class="flex mb-2">
@@ -137,7 +172,11 @@
                         </div>
                     </article>
                     <article class="sm:flex bg-white shadow mb-8 p-6 sm:p-8">
-                        <img class="border border-gray-300" src="portfolio/ppm.png" alt="Profile Pic Maker" />
+                        <picture class="border border-gray-300">
+                            <source srcset="portfolio/ppm.webp" type="image/webp">
+                            <source srcset="portfolio/ppm.png" type="image/png">
+                            <img src="portfolio/ppm.png" alt="Profile Pic Maker" />
+                        </picture>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                             <h3 class="flex mb-2">
                                 <span class="font-semibold leading-tight text-red-600">
@@ -149,7 +188,11 @@
                     </article>
                     <article class="sm:flex bg-white shadow mb-8 p-6 sm:p-8">
                         <a href="portfolio/Cellpocalypse/" title="Cellpocalypse" target="_blank" rel="noopener noreferrer">
-                            <img class="border border-gray-300" src="portfolio/Cellpocalypse.png" alt="Cellpocalypse" />
+                            <picture class="border border-gray-300">
+                                <source srcset="portfolio/Cellpocalypse.webp" type="image/webp">
+                                <source srcset="portfolio/Cellpocalypse.png" type="image/png">
+                                <img src="portfolio/Cellpocalypse.png" alt="Cellpocalypse" />
+                            </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                             <h3 class="flex mb-2">
@@ -162,7 +205,11 @@
                     </article>
                     <article class="sm:flex bg-white shadow mb-8 p-6 sm:p-8">
                         <a href="portfolio/BigMack/" title="Big Mack Attack" target="_blank" rel="noopener noreferrer">
-                            <img class="border border-gray-300" src="portfolio/BigMack.png" alt="Big Mack Attack" />
+                            <picture class="border border-gray-300">
+                                <source srcset="portfolio/BigMack.webp" type="image/webp">
+                                <source srcset="portfolio/BigMack.png" type="image/png">
+                                <img src="portfolio/BigMack.png" alt="Big Mack Attack" />
+                            </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                             <h3 class="flex mb-2">
@@ -175,7 +222,11 @@
                     </article>
                     <article class="sm:flex bg-white shadow mb-2 p-6 sm:p-8">
                         <a href="portfolio/Breakout/" title="Breakout" target="_blank" rel="noopener noreferrer">
-                            <img class="border border-gray-300" src="portfolio/Breakout.png" alt="Breakout" />
+                            <picture class="border border-gray-300">
+                                <source srcset="portfolio/Breakout.webp" type="image/webp">
+                                <source srcset="portfolio/Breakout.png" type="image/png">
+                                <img src="portfolio/Breakout.png" alt="Breakout" />
+                            </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                             <h3 class="flex mb-2">
@@ -188,7 +239,11 @@
                     </article>
                     <article class="sm:flex bg-white shadow mb-8 p-6 sm:p-8">
                         <a href="portfolio/Greeps/" title="Greeps" target="_blank" rel="noopener noreferrer">
-                            <img class="border border-gray-300" src="portfolio/Greeps.png" alt="Greeps" />
+                            <picture class="border border-gray-300">
+                                <source srcset="portfolio/Greeps.webp" type="image/webp">
+                                <source srcset="portfolio/Greeps.png" type="image/png">
+                                <img src="portfolio/Greeps.png" alt="Greeps" />
+                            </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                             <h3 class="flex mb-2">
@@ -201,7 +256,11 @@
                     </article>
                     <article class="sm:flex bg-white shadow mb-8 p-6 sm:p-8">
                         <a href="portfolio/twitter/" title="Twitter Aggregator" target="_blank" rel="noopener noreferrer">
-                            <img class="border border-gray-300" src="portfolio/twitter.png" alt="Twitter Aggregator" />
+                            <picture class="border border-gray-300">
+                                <source srcset="portfolio/twitter.webp" type="image/webp">
+                                <source srcset="portfolio/twitter.png" type="image/png">
+                                <img src="portfolio/twitter.png" alt="Twitter Aggregator" />
+                            </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                             <h3 class="flex mb-2">
@@ -221,22 +280,22 @@
             <section class="text-gray-800 mx-1 sm:mx-6">
                 <ul class="list-disc list-inside">
                     <li class="mb-2">
-                        <a href="https://tighten.co/blog/the-tighten-test" target="_blank">The Tighten Test: 12 Steps to a Better Team</a>
+                        <a href="https://tighten.co/blog/the-tighten-test" target="_blank" rel="noopener noreferrer">The Tighten Test: 12 Steps to a Better Team</a>
                     </li>
                     <li class="mb-2">
-                        <a href="https://tighten.co/blog/your-app-is-a-package-manager" target="_blank">Your App is a Package Manager</a>
+                        <a href="https://tighten.co/blog/your-app-is-a-package-manager" target="_blank" rel="noopener noreferrer">Your App is a Package Manager</a>
                     </li>
                     <li class="mb-2">
-                        <a href="https://tighten.co/blog/intro-to-mobile-app-development-with-nativescript-vue" target="_blank">Intro to Mobile App Development with NativeScript-Vue</a>
+                        <a href="https://tighten.co/blog/intro-to-mobile-app-development-with-nativescript-vue" target="_blank" rel="noopener noreferrer">Intro to Mobile App Development with NativeScript-Vue</a>
                     </li>
                     <li class="mb-2">
-                        <a href="https://tighten.co/blog/developing-blocker-friendly-websites" target="_blank">Developing Blocker-Friendly Websites</a>
+                        <a href="https://tighten.co/blog/developing-blocker-friendly-websites" target="_blank" rel="noopener noreferrer">Developing Blocker-Friendly Websites</a>
                     </li>
                     <li class="mb-2">
-                        <a href="https://tighten.co/blog/the-art-of-mentoring" target="_blank">The Art of Mentoring</a>
+                        <a href="https://tighten.co/blog/the-art-of-mentoring" target="_blank" rel="noopener noreferrer">The Art of Mentoring</a>
                     </li>
                     <li>
-                        <a href="https://tighten.co/blog/publishing-your-first-laravel-nova-tool" target="_blank">Publishing Your First Laravel Nova Tool</a>
+                        <a href="https://tighten.co/blog/publishing-your-first-laravel-nova-tool" target="_blank" rel="noopener noreferrer">Publishing Your First Laravel Nova Tool</a>
                     </li>
                 </ul>
             </section>
@@ -262,7 +321,7 @@
                     <li class="px-2">Empathy</li>
                     <li class="px-2">Attention to Detail</li>
                 </ul>
-                <div class="sm:hidden clearfix" aria-hidden="true">
+                <div class="sm:hidden flow-root" aria-hidden="true">
                     <ul class="absolute">
                         <li>PHP</li>
                         <li>Laravel</li>
@@ -288,7 +347,13 @@
         <div class="border-t border-gray-300 py-10" id="about">
             <h2 class="text-4xl mb-6">About Me</h2>
             <section class="sm:flex sm:ml-6">
-                <div><img class="w-40 border border-gray-300 mx-auto" src="assets/img/me.png" alt="Me celebrating the conclusion of the GRE!" /></div>
+                <div>
+                    <picture class="w-40 border border-gray-300 mx-auto">
+                        <source srcset="assets/img/me.webp" type="image/webp">
+                        <source srcset="assets/img/me.png" type="image/png">
+                        <img src="assets/img/me.png" alt="Me celebrating the conclusion of the GRE!" />
+                    </picture>
+                </div>
                 <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                     <p>I discovered my love for programming in high school through Internet Relay Chat and the MMORPG RuneScape, leading to my first coding project: an IRC bot serving 1,000 channels with over 10,000 lines of code.</p>
                     <p class="mt-2">I earned my Bachelor's degree in Computer Science from the University of Denver with a focus on Digital Media and Game Development. Since then I've worked on large and small-scale applications, including iOS games, an e-commerce website with 1 million products, and an enterprise-grade CRM.</p>
@@ -299,7 +364,13 @@
                     <p>Currently I'm a Lead Developer on a lively fully-distributed team at <a href="https://tighten.co" title="Tighten" target="_blank" rel="noopener noreferrer">Tighten</a>. I spend my days developing a variety of web and mobile applications using tools like Laravel, Vue/React, and NativeScript/React Native.</p>
                     <p class="mt-2">When I'm not programming I enjoy playing with my beagle mix Sudo, reading (often about programming), singing, playing video games, obstinately <a href="https://xkcd.com/1782/" title="XKCD: Team Chat" target="_blank" rel="noopener noreferrer">chatting on IRC</a>, and drinking copious amounts of coffee.</p>
                 </div>
-                <div><img id="sudo" class="w-40 border border-gray-300 mx-auto" src="assets/img/sudo.jpg" alt="Sudo practicing her puppy-dog eyes"></div>
+                <div>
+                    <picture class="w-40 border border-gray-300 mx-auto">
+                        <source srcset="assets/img/sudo.webp" type="image/webp">
+                        <source srcset="assets/img/sudo.jpg" type="image/jpg">
+                        <img src="assets/img/sudo.jpg" alt="Sudo practicing her puppy-dog eyes" />
+                    </picture>
+                </div>
             </section>
         </div>
 

@@ -4,17 +4,19 @@
   "author": "Sara Bine <sara@sarabine.com>",
   "private": true,
   "devDependencies": {
-    "browser-sync": "^2.26.12",
-    "browser-sync-webpack-plugin": "^2.0.1",
-    "laravel-mix": "^5.0.0",
-    "tailwindcss": "^1.6.0"
+    "browser-sync": "^2.26.13",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "laravel-mix": "^6.0.9",
+    "postcss": "^8.2.4",
+    "tailwindcss": "^2.0.2"
   },
   "scripts": {
     "dev": "npm run development",
-    "development": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "watch": "npm run development -- --watch",
-    "hot": "NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
     "prod": "npm run production",
-    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "production": "mix --production"
   }
 }
