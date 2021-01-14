@@ -7,20 +7,20 @@
 }
 @font-face {
 	font-family: SourceSansPro;
-	src: url('../font/SourceSansPro-Regular.woff2') format('woff2'),
-		url('../font/SourceSansPro-Regular.woff') format('woff');
+	src: url('../font/SourceSansPro-Regular.otf.woff2') format('woff2'),
+		url('../font/SourceSansPro-Regular.otf.woff') format('woff');
 }
 @font-face {
 	font-family: SourceSansPro;
 	font-weight: 600;
-	src: url('../font/SourceSansPro-Semibold.woff2') format('woff2'),
-		url('../font/SourceSansPro-Semibold.woff') format('woff');
+	src: url('../font/SourceSansPro-Semibold.otf.woff2') format('woff2'),
+		url('../font/SourceSansPro-Semibold.otf.woff') format('woff');
 }
 @font-face {
 	font-family: SourceSansPro;
 	font-style: italic;
-	src: url('../font/SourceSansPro-It.woff2') format('woff2'),
-		url('../font/SourceSansPro-It.woff') format('woff');
+	src: url('../font/SourceSansPro-It.otf.woff2') format('woff2'),
+		url('../font/SourceSansPro-It.otf.woff') format('woff');
 }
 
 html {
