@@ -1,19 +1,19 @@
 var email = 'sara' + '' + '@' + 'sarabine' + '.' + 'com';
 var emailElements = document.getElementsByClassName('email');
-var item;
+var el;
 for (var i = 0; i < emailElements.length; i++) {
-    item = emailElements[i];
-    if (item.innerHTML.length === 0) {
-        item.innerHTML = item.innerHTML + email;
+    el = emailElements[i];
+    if (el.innerHTML.length === 0) {
+        el.innerHTML = email;
     }
-    item.href = 'mailto:' + email;
+    el.href = 'mailto:' + email;
 }
 
 var dateElements = document.getElementsByClassName('year');
 var year = new Date().getFullYear();
 for (var i = 0; i < dateElements.length; i++) {
-    item = dateElements[i];
-    if (item.innerHTML.length === 0) {
-        item.innerHTML = item.innerHTML + year;
+    el = dateElements[i];
+    if (el.innerHTML.length === 0) {
+        el.innerHTML = year;
     }
 }
