@@ -2,23 +2,26 @@
 
 @font-face {
 	font-family: BebasNeue;
+	font-display: swap;
 	src: url('../font/BebasNeue-Regular.woff2') format('woff2'),
 		url('../font/BebasNeue-Regular.woff') format('woff');
 }
 @font-face {
 	font-family: SourceSansPro;
+	font-display: swap;
 	src: url('../font/SourceSansPro-Regular.otf.woff2') format('woff2'),
 		url('../font/SourceSansPro-Regular.otf.woff') format('woff');
 }
 @font-face {
 	font-family: SourceSansPro;
+	font-display: swap;
 	font-weight: 600;
 	src: url('../font/SourceSansPro-Semibold.otf.woff2') format('woff2'),
 		url('../font/SourceSansPro-Semibold.otf.woff') format('woff');
 }
 
 html {
-	box-sizing: border-box;
+	@apply box-border;
 }
 
 body, h1, h2, h3, h4, h5, h6, p {
@@ -28,15 +31,17 @@ body, h1, h2, h3, h4, h5, h6, p {
 h1, h2 {
 	@apply font-heading;
 	@apply tracking-wide;
+	@apply uppercase;
 }
 
 *,
 *::before,
 *::after {
+	@apply border-0;
+	@apply border-gray-200;
+	@apply border-solid;
+
 	box-sizing: inherit;
-	border-width: 0;
-	border-style: solid;
-	border-color: theme('colors.gray.200');
 }
 
 ul {
@@ -53,17 +58,6 @@ a {
 }
 a:hover {
 	@apply text-red-800;
-}
-
-#header {
-	background-image: url(../img/dawn-mountains.jpg);
-	background-size: auto;
-	background-position: 50% 42%;
-}
-@screen xl {
-	#header {
-		background-size: 110%;
-	}
 }
 
 @tailwind components;

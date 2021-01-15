@@ -7,20 +7,8 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      heading: ['BebasNeue', 'serif'],
-      body: [
-        'SourceSansPro',
-        'ui-sans-serif',
-        'system-ui',
-        '-apple-system',
-        'BlinkMacSystemFont',
-        '"Segoe UI"',
-        'Roboto',
-        '"Helvetica Neue"',
-        'Arial',
-        '"Noto Sans"',
-        'sans-serif',
-      ],
+      heading: ['BebasNeue', 'Garamond', 'serif'],
+      body: ['SourceSansPro', 'Helvetica', 'sans-serif'],
     },
     extend: {
       colors: {
@@ -34,7 +22,6 @@ module.exports = {
           '100': '#FAFAFA',
           '200': '#F5F5F5',
           '300': '#E8E8E8',
-          '400': '#DDDDDD',
         },
         red: {
           '600': '#DE0045',
@@ -62,6 +49,9 @@ module.exports = {
       },
       opacity: {
         '85': '0.85',
+      },
+      spacing: {
+        'half': '5.5rem',
       }
     }
   },

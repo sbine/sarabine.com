@@ -10,13 +10,14 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="preload" href="assets/css/style.min.css" as="style">
     <link rel="preload" href="assets/js/app.min.js" as="script">
-    <link rel="preload" href="assets/img/dawn-mountains.jpg" as="image">
+    <link rel="preload" href="assets/img/dawn-mountains.webp" as="image">
     <link rel="preload" href="assets/font/BebasNeue-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/font/SourceSansPro-Regular.otf.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/font/SourceSansPro-Semibold.otf.woff2" as="font" type="font/woff2" crossorigin>
     <link href="assets/css/style.min.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/app.min.js" async></script>
 </head>
-<body class="bg-gray-200 font-body leading-relaxed text-lg">
+<body class="bg-gray-200 leading-relaxed text-lg">
     <div class="w-full sticky top-0 z-50 bg-gray-200 border-t-2 border-red-700 shadow pb-1 pt-2">
         <div class="container h-full flex items-center justify-between leading-tight sm:leading-relaxed mx-auto px-6 sm:px-16 xl:px-48 2xl:px-80">
             <h1 class="text-5xl text-red-700">Sara Bine</h1>
@@ -37,14 +38,18 @@
         </div>
     </div>
 
-    <div id="header" class="h-56 bg-no-repeat bg-black border-b border-black"></div>
-    <div class="container mx-auto px-6 sm:px-16 xl:px-48 2xl:px-80 mb-8 -mt-20">
-        <div class="bg-gray-100 font-body shadow-md text-xl p-8 sm:p-12">
+    <picture>
+        <source srcset="assets/img/dawn-mountains.webp" type="image/webp">
+        <source srcset="assets/img/dawn-mountains.jpg" type="image/jpg">
+        <img class="w-full object-cover bg-black border-b border-black" src="assets/img/dawn-mountains.jpg" alt="Panoramic view of mountains at dawn" width="2000" height="225">
+    </picture>
+    <div class="container relative mx-auto px-6 sm:px-16 xl:px-48 2xl:px-80">
+        <div class="bg-gray-100 font-body shadow-md text-xl p-8 sm:p-12 mb-8 -mt-half">
             <p>I'm a Senior Full-Stack Developer in Colorado who loves problem-solving, learning &amp; sharing knowledge, and effective communication.</p>
         </div>
     </div>
 
-    <div class="container mx-auto px-6 sm:px-16 xl:px-48 2xl:px-80">
+    <div class="container font-body mx-auto px-6 sm:px-16 xl:px-48 2xl:px-80">
         <div class="py-10" id="work">
             <h2 class="text-4xl mb-6">My Work</h2>
             <section class="sm:flex sm:flex-wrap mx-1 sm:mx-6">
@@ -53,7 +58,7 @@
                         <picture>
                             <source srcset="portfolio/bdgt.webp" type="image/webp">
                             <source srcset="portfolio/bdgt.png" type="image/png">
-                            <img class="border border-gray-300" src="portfolio/bdgt.png" alt="Bdgt" />
+                            <img class="border border-gray-300" src="portfolio/bdgt.png" alt="Bdgt">
                         </picture>
                     </a>
                     <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -73,7 +78,7 @@
                         <picture>
                             <source srcset="portfolio/bopitsmash.webp" type="image/webp">
                             <source srcset="portfolio/bopitsmash.png" type="image/png">
-                            <img src="portfolio/bopitsmash.png" alt="Bop It! Smash" />
+                            <img src="portfolio/bopitsmash.png" alt="Bop It! Smash">
                         </picture>
                     </a>
                     <div class="w-full sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -90,7 +95,7 @@
                         <picture>
                             <source srcset="portfolio/BombBreak/BombBreak.webp" type="image/webp">
                             <source srcset="portfolio/BombBreak/BombBreak.png" type="image/png">
-                            <img class="border border-gray-300" src="portfolio/BombBreak/BombBreak.png" alt="Bomb Break" />
+                            <img class="border border-gray-300" src="portfolio/BombBreak/BombBreak.png" alt="Bomb Break">
                         </picture>
                     </a>
                     <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -105,7 +110,7 @@
                         <picture>
                             <source srcset="portfolio/MiniMania.webp" type="image/webp">
                             <source srcset="portfolio/MiniMania.png" type="image/png">
-                            <img class="border border-gray-300" src="portfolio/MiniMania.png" alt="Mini Mania" />
+                            <img class="border border-gray-300" src="portfolio/MiniMania.png" alt="Mini Mania">
                         </picture>
                     </a>
                     <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -122,7 +127,7 @@
                         <picture>
                             <source srcset="portfolio/SpaceFighter.webp" type="image/webp">
                             <source srcset="portfolio/SpaceFighter.png" type="image/png">
-                            <img class="border border-gray-300" src="portfolio/SpaceFighter.png" alt="Space Fighter" />
+                            <img class="border border-gray-300" src="portfolio/SpaceFighter.png" alt="Space Fighter">
                         </picture>
                     </a>
                     <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -143,7 +148,7 @@
                             <picture>
                                 <source srcset="portfolio/ubz.webp" type="image/webp">
                                 <source srcset="portfolio/ubz.png" type="image/png">
-                                <img src="portfolio/ubz.png" alt="Ultimate Battle Zombies" />
+                                <img src="portfolio/ubz.png" alt="Ultimate Battle Zombies" loading="lazy">
                             </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -160,7 +165,7 @@
                             <picture>
                                 <source srcset="portfolio/mpz.webp" type="image/webp">
                                 <source srcset="portfolio/mpz.png" type="image/png">
-                                <img src="portfolio/mpz.png" alt="My Pet Zombie" />
+                                <img src="portfolio/mpz.png" alt="My Pet Zombie" loading="lazy">
                             </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -174,7 +179,7 @@
                         <picture>
                             <source srcset="portfolio/ppm.webp" type="image/webp">
                             <source srcset="portfolio/ppm.png" type="image/png">
-                            <img class="border border-gray-300" src="portfolio/ppm.png" alt="Profile Pic Maker" />
+                            <img class="border border-gray-300" src="portfolio/ppm.png" alt="Profile Pic Maker" loading="lazy">
                         </picture>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
                             <h3 class="flex mb-2">
@@ -190,7 +195,7 @@
                             <picture>
                                 <source srcset="portfolio/Cellpocalypse.webp" type="image/webp">
                                 <source srcset="portfolio/Cellpocalypse.png" type="image/png">
-                                <img class="border border-gray-300" src="portfolio/Cellpocalypse.png" alt="Cellpocalypse" />
+                                <img class="border border-gray-300" src="portfolio/Cellpocalypse.png" alt="Cellpocalypse" loading="lazy">
                             </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -207,7 +212,7 @@
                             <picture>
                                 <source srcset="portfolio/BigMack.webp" type="image/webp">
                                 <source srcset="portfolio/BigMack.png" type="image/png">
-                                <img class="border border-gray-300" src="portfolio/BigMack.png" alt="Big Mack Attack" />
+                                <img class="border border-gray-300" src="portfolio/BigMack.png" alt="Big Mack Attack" loading="lazy">
                             </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -224,7 +229,7 @@
                             <picture>
                                 <source srcset="portfolio/Breakout.webp" type="image/webp">
                                 <source srcset="portfolio/Breakout.png" type="image/png">
-                                <img class="border border-gray-300" src="portfolio/Breakout.png" alt="Breakout" />
+                                <img class="border border-gray-300" src="portfolio/Breakout.png" alt="Breakout" loading="lazy">
                             </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -241,7 +246,7 @@
                             <picture>
                                 <source srcset="portfolio/Greeps.webp" type="image/webp">
                                 <source srcset="portfolio/Greeps.png" type="image/png">
-                                <img class="border border-gray-300" src="portfolio/Greeps.png" alt="Greeps" />
+                                <img class="border border-gray-300" src="portfolio/Greeps.png" alt="Greeps" loading="lazy">
                             </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -258,7 +263,7 @@
                             <picture>
                                 <source srcset="portfolio/twitter.webp" type="image/webp">
                                 <source srcset="portfolio/twitter.png" type="image/png">
-                                <img class="border border-gray-300" src="portfolio/twitter.png" alt="Twitter Aggregator" />
+                                <img class="border border-gray-300" src="portfolio/twitter.png" alt="Twitter Aggregator" loading="lazy">
                             </picture>
                         </a>
                         <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -350,7 +355,7 @@
                     <picture>
                         <source srcset="assets/img/me.webp" type="image/webp">
                         <source srcset="assets/img/me.png" type="image/png">
-                        <img class="w-40 border border-gray-300 mx-auto" src="assets/img/me.png" alt="Me celebrating the conclusion of the GRE!" />
+                        <img class="w-40 border border-gray-300 mx-auto" src="assets/img/me.png" alt="Me celebrating the conclusion of the GRE!" loading="lazy">
                     </picture>
                 </div>
                 <div class="sm:w-3/4 sm:ml-8 mt-8 sm:mt-0">
@@ -367,7 +372,7 @@
                     <picture>
                         <source srcset="assets/img/sudo.webp" type="image/webp">
                         <source srcset="assets/img/sudo.jpg" type="image/jpg">
-                        <img class="w-40 border border-gray-300 mx-auto" src="assets/img/sudo.jpg" alt="Sudo practicing her puppy-dog eyes" />
+                        <img class="w-40 border border-gray-300 mx-auto" src="assets/img/sudo.jpg" alt="Sudo practicing her puppy-dog eyes" loading="lazy">
                     </picture>
                 </div>
             </section>
@@ -378,25 +383,25 @@
             <section class="sm:flex sm:flex-wrap mx-1 sm:mx-6">
                 <div class="sm:w-1/2 sm:pr-3 pb-3">
                     <a href="https://www.linkedin.com/in/sarabine" title="Contact me on LinkedIn" target="_blank" rel="noopener noreferrer" class="flex items-center bg-white hover:bg-gray-100 shadow p-4">
-                        <img class="w-10 bg-icon-linkedin rounded border-gray-300 mr-4 p-2" src="assets/img/linkedin.svg" alt="Contact me on LinkedIn">
+                        <img class="w-10 bg-icon-linkedin rounded border-gray-300 mr-4 p-2" src="assets/img/linkedin.svg" alt="Contact me on LinkedIn" loading="lazy">
                         LinkedIn
                     </a>
                 </div>
                 <div class="sm:w-1/2 pb-3">
                     <a href="https://twitter.com/sara_bine" title="Contact me on Twitter" target="_blank" rel="noopener noreferrer" class="flex items-center bg-white hover:bg-gray-100 shadow p-4">
-                        <img class="w-10 bg-icon-twitter rounded border-gray-300 mr-4 p-2" src="assets/img/twitter.svg" alt="Contact me on Twitter">
+                        <img class="w-10 bg-icon-twitter rounded border-gray-300 mr-4 p-2" src="assets/img/twitter.svg" alt="Contact me on Twitter" loading="lazy">
                         Twitter
                     </a>
                 </div>
                 <div class="sm:w-1/2 sm:pr-3 pb-3">
                     <a href="https://github.com/sbine" title="View my GitHub" target="_blank" rel="noopener noreferrer" class="flex items-center bg-white hover:bg-gray-100 shadow p-4">
-                        <img class="w-10 bg-icon-github sm:bg-gray-800 rounded border-gray-300 mr-4 p-2" src="assets/img/github.svg" alt="View my GitHub">
+                        <img class="w-10 bg-icon-github sm:bg-gray-800 rounded border-gray-300 mr-4 p-2" src="assets/img/github.svg" alt="View my GitHub" loading="lazy">
                         GitHub
                     </a>
                 </div>
                 <div class="sm:w-1/2 pb-3">
                     <a title="Email me" class="email flex items-center bg-white hover:bg-gray-100 shadow p-4">
-                        <img class="w-10 bg-icon-email rounded border-gray-300 mr-4 p-2" src="assets/img/email.svg" alt="Email me">
+                        <img class="w-10 bg-icon-email rounded border-gray-300 mr-4 p-2" src="assets/img/email.svg" alt="Email me" loading="lazy">
                         Email
                     </a>
                 </div>
@@ -406,6 +411,5 @@
     <footer class="w-full text-center text-gray-800 py-3">
         <p>&copy; <span class="year"></span> Sara Bine</p>
     </footer>
-    <script src="assets/js/app.min.js"></script>
 </body>
 </html>
