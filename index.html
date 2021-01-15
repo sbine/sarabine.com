@@ -10,7 +10,6 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="preload" href="assets/css/style.min.css" as="style">
     <link rel="preload" href="assets/js/app.min.js" as="script">
-    <link rel="preload" href="assets/img/dawn-mountains.webp" as="image">
     <link rel="preload" href="assets/font/BebasNeue-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/font/SourceSansPro-Regular.otf.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="assets/font/SourceSansPro-Semibold.otf.woff2" as="font" type="font/woff2" crossorigin>
@@ -39,9 +38,11 @@
     </div>
 
     <picture>
-        <source srcset="assets/img/dawn-mountains.webp" type="image/webp">
-        <source srcset="assets/img/dawn-mountains.jpg" type="image/jpg">
-        <img class="w-full object-cover bg-black border-b border-black" src="assets/img/dawn-mountains.jpg" alt="Panoramic view of mountains at dawn" width="2000" height="225">
+        <source srcset="assets/img/dawn-mountains-small.webp" media="(max-width: 1023px)" type="image/webp">
+        <source srcset="assets/img/dawn-mountains-small.jpg" media="(max-width: 1023px)" type="image/jpg">
+        <source srcset="assets/img/dawn-mountains.webp" media="(min-width: 1024px)" type="image/webp">
+        <source srcset="assets/img/dawn-mountains.jpg" media="(min-width: 1024px)" type="image/jpg">
+        <img class="w-full object-cover bg-black border-b border-black" src="assets/img/dawn-mountains.jpg" alt="Panoramic view of mountains at dawn" width="2000" height="230">
     </picture>
     <div class="container relative mx-auto px-6 sm:px-16 xl:px-48 2xl:px-80">
         <div class="bg-gray-100 font-body shadow-md text-xl p-8 sm:p-12 mb-8 -mt-half">
