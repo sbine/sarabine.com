@@ -3,6 +3,7 @@ module.exports = {
     './index.html',
   ],
   corePlugins: {
+    container: false,
     preflight: false,
   },
   theme: {

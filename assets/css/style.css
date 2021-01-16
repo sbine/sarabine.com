@@ -60,6 +60,20 @@ a:hover {
     @apply text-red-800;
 }
 
+.container {
+    width: 100%;
+}
+@screen sm {
+    .container {
+        max-width: theme('screens.sm');
+    }
+}
+@screen lg {
+    .container {
+        max-width: theme('screens.lg');
+    }
+}
+
 @tailwind components;
 
 @tailwind utilities;
