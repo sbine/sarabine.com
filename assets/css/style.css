@@ -61,7 +61,7 @@ a:hover {
 }
 
 .container {
-    width: 100%;
+    @apply w-full;
 }
 @screen sm {
     .container {
