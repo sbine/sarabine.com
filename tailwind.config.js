@@ -43,7 +43,7 @@ module.exports = {
         '6xl': '4rem',
       },
       letterSpacing: {
-        wide: '0.02em',
+        wide: '0.01em',
       },
       lineHeight: {
         relaxed: '1.58',
