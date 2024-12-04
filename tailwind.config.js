@@ -15,9 +15,9 @@ module.exports = {
       colors: {
         icon: {
           email: '#F97840',
+          bluesky: '#0085ff',
           github: '#181717',
           linkedin: '#0077B5',
-          twitter: '#1DA1F2',
         },
         gray: {
           '100': '#FAFAFA',
