@@ -1,10 +1,39 @@
-module.exports = {
-  purge: [
+export default {
+  content: [
     './index.html',
   ],
   corePlugins: {
     container: false,
     preflight: false,
+    animation: false,
+    backdropBlur: false,
+    backdropBrightness: false,
+    backdropContrast: false,
+    backdropGrayscale: false,
+    backdropHueRotate: false,
+    backdropInvert: false,
+    backdropOpacity: false,
+    backdropSaturate: false,
+    backdropSepia: false,
+    blur: false,
+    brightness: false,
+    contrast: false,
+    dropShadow: false,
+    grayscale: false,
+    hueRotate: false,
+    invert: false,
+    saturate: false,
+    sepia: false,
+    filter: false,
+    backdropFilter: false,
+    ringColor: false,
+    ringOffsetColor: false,
+    ringOffsetWidth: false,
+    ringOpacity: false,
+    ringWidth: false,
+  },
+  experimental: {
+    optimizeUniversalDefaults: true,
   },
   theme: {
     fontFamily: {
@@ -55,8 +84,5 @@ module.exports = {
         'half': '5.5rem',
       }
     }
-  },
-  variants: {
-    opacity: ['responsive', 'hover'],
   }
 }

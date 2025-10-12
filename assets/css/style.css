@@ -1,79 +1,79 @@
 @tailwind base;
 
-@font-face {
-    font-family: BebasNeue;
-    font-display: swap;
-    src: url('../font/BebasNeue-Regular.woff2') format('woff2'),
-        url('../font/BebasNeue-Regular.woff') format('woff');
-}
-@font-face {
-    font-family: SourceSansPro;
-    font-display: swap;
-    src: url('../font/SourceSansPro-Regular.otf.woff2') format('woff2'),
-        url('../font/SourceSansPro-Regular.otf.woff') format('woff');
-}
-@font-face {
-    font-family: SourceSansPro;
-    font-display: swap;
-    font-weight: 600;
-    src: url('../font/SourceSansPro-Semibold.otf.woff2') format('woff2'),
-        url('../font/SourceSansPro-Semibold.otf.woff') format('woff');
-}
-
-html {
-    @apply box-border;
-}
-
-body, h1, h2, h3, h4, h5, h6, p {
-    @apply m-0;
-}
-
-h1, h2 {
-    @apply font-heading;
-    @apply tracking-wide;
-    @apply uppercase;
-}
-
-*,
-*::before,
-*::after {
-    @apply border-0;
-    @apply border-gray-200;
-    @apply border-solid;
-
-    box-sizing: inherit;
-}
-
-ul {
-    @apply list-none;
-    @apply m-0;
-    @apply p-0;
-}
-
-a {
-    @apply bg-transparent;
-    @apply text-red-600;
-
-    text-decoration: inherit;
-}
-a:hover {
-    @apply text-red-800;
-}
-
-.container {
-    @apply w-full;
-}
-@screen sm {
-    .container {
-        max-width: theme('screens.sm');
+@layer base {
+    @font-face {
+        font-family: BebasNeue;
+        font-display: swap;
+        src: url('../font/BebasNeue-Regular.woff2') format('woff2'),
+            url('../font/BebasNeue-Regular.woff') format('woff');
     }
-}
-@screen lg {
+    @font-face {
+        font-family: SourceSansPro;
+        font-display: swap;
+        src: url('../font/SourceSansPro-Regular.otf.woff2') format('woff2'),
+            url('../font/SourceSansPro-Regular.otf.woff') format('woff');
+    }
+    @font-face {
+        font-family: SourceSansPro;
+        font-display: swap;
+        font-weight: 600;
+        src: url('../font/SourceSansPro-Semibold.otf.woff2') format('woff2'),
+            url('../font/SourceSansPro-Semibold.otf.woff') format('woff');
+    }
+
+    html {
+        @apply box-border;
+    }
+
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        @apply m-0;
+    }
+
+    h1,
+    h2 {
+        @apply font-heading tracking-wide uppercase;
+    }
+
+    *,
+    *::before,
+    *::after {
+        @apply border-0 border-gray-200 border-solid;
+        box-sizing: inherit;
+    }
+
+    ul {
+        @apply list-none m-0 p-0;
+    }
+
+    a {
+        @apply bg-transparent text-red-600;
+        text-decoration: inherit;
+    }
+    a:hover {
+        @apply text-red-800;
+    }
+
     .container {
-        max-width: theme('screens.lg');
+        @apply w-full;
+    }
+    @screen sm {
+        .container {
+            max-width: theme('screens.sm');
+        }
+    }
+    @screen lg {
+        .container {
+            max-width: theme('screens.lg');
+        }
     }
 }
 
 @tailwind components;
-
 @tailwind utilities;
